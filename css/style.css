@@ -8,12 +8,6 @@
   padding-top: 12px;
   padding-bottom: 12px; }
 
-.nav-top-middle {
-  padding-left: 14px; }
-
-.nav-top-middle-text {
-  padding-left: 21px; }
-
 .nav li {
   border-right: 1px solid #06137b;
   width: 100px; }
@@ -43,8 +37,25 @@
   .nav li:last-child a:last-child {
     padding-left: 13px; }
 
-.float-right {
+.nav-top-middle {
+  padding-left: 14px; }
+
+.nav-top-middle-text {
+  padding-left: 21px; }
+
+.searchbar {
   text-align: right; }
+  .searchbar input {
+    width: 80%;
+    font-size: 1.2em;
+    padding: 3px 0 3px 17px;
+    margin-top: 6px;
+    border: 1px solid #cbcbcb;
+    border-radius: 4px; }
+  .searchbar ::placeholder {
+    /* Most modern browsers support this now. */
+    color: #525151;
+    font-style: italic; }
 
 body {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; }
