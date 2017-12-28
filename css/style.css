@@ -95,22 +95,43 @@
 
 .languages {
   text-align: right;
-  font-size: 0.72em; }
+  font-size: 0.8em;
+  font-weight: 600; }
+  .languages p {
+    margin-bottom: 0;
+    margin-top: 10px; }
+    .languages p a {
+      color: #06137b;
+      text-decoration: none;
+      margin-left: 10%; }
+      .languages p a:hover {
+        color: #0c20c5; }
+      .languages p a:active, .languages p a:focus {
+        font-weight: bold; }
 
 body {
   font-family: "Open Sans", sans-serif;
   border-top: 4px solid #01a7a7; }
 
-.container {
-  width: 72%; }
-
+/*
 .red {
-  border: 1px solid red; }
+
+    border: 1px solid red;
+
+}
+
 
 .blue {
-  border: 1px solid blue; }
+
+  border: 1px solid blue;
+
+}
+
 
 .yellow {
-  border: 1px solid yellow; }
+
+  border: 1px solid yellow;
+
+}*/
 
 /*# sourceMappingURL=style.css.map */
