@@ -1,15 +1,22 @@
 $primary-color: #06137b;
 $hover-color: #0c20c5;
 $font-small: 0.72em;
+$font-medium-large: 0.9em;
 
 
 .nav-room-left {
-    margin-left: 8em;
+    margin-left: 7em;
 }
 
 
+
+/***  Navigation top part  ****/
+
+/* Menu */
+
 .top-nav {
     font-size: $font-small;
+    font-weight: 600;
 }
 
 .top-nav-menu {
@@ -18,7 +25,7 @@ $font-small: 0.72em;
 
 
 .nav {
-   li {
+   li.nav-item-top {
 
    border-right: 1px solid $primary-color;
    width: 115px;
@@ -79,12 +86,13 @@ $font-small: 0.72em;
 
 
 
+/* Searchbar */
 
 .searchbar {
 text-align: right;
 
     input {
-    width: 85%;
+    width: 80%;
     font-size: 1.2em;
     padding: 3px 0 3px 17px;
     margin-top: 5px;
@@ -110,6 +118,61 @@ text-align: right;
     }
 
 
+}
 
 
+
+/***  Navigation bottom part  ***/
+
+.bottom-nav {
+    font-size: $font-medium-large;
+    font-weight: 700;
+}
+
+.bottom-nav-menu {
+  padding: 9px 0 9px 12px;
+}
+
+
+.nav {
+   li.nav-item-bottom {
+
+   /*width: 115px;*/
+
+     a {
+     color: #4f4f4f;
+     padding: 0;
+     padding-left: 2.5em;
+
+
+     &:hover {
+     color: $hover-color;
+     }
+
+     &:active, &:focus {
+     font-weight: bold;
+     }
+
+     }
+   }
+}
+
+.nav {
+   li.nav-item-bottom:first-child {
+
+     a {
+      padding-left: 0;
+     }
+
+   }
+}
+
+
+
+
+
+
+.languages {
+    text-align: right;
+    font-size: $font-small;
 }

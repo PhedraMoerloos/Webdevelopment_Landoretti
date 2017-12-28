@@ -1,34 +1,37 @@
 .nav-room-left {
-  margin-left: 8em; }
+  margin-left: 7em; }
 
+/***  Navigation top part  ****/
+/* Menu */
 .top-nav {
-  font-size: 0.72em; }
+  font-size: 0.72em;
+  font-weight: 600; }
 
 .top-nav-menu {
   padding: 12px 0 12px 12px; }
 
-.nav li {
+.nav li.nav-item-top {
   border-right: 1px solid #06137b;
   width: 115px; }
-  .nav li #watchlist {
+  .nav li.nav-item-top #watchlist {
     width: 11px;
     height: 10.5px;
     background: url("../images/nav-footer-icons.svg") -29px -1.5px;
     margin-top: 3px; }
-  .nav li #profile {
+  .nav li.nav-item-top #profile {
     width: 13px;
     height: 13.8px;
     background: url("../images/nav-footer-icons.svg") -42px 0;
     margin-top: 1px; }
-  .nav li .nav-icons {
+  .nav li.nav-item-top .nav-icons {
     float: left; }
-  .nav li a {
+  .nav li.nav-item-top a {
     color: #06137b;
     padding: 0;
     padding-left: 21px; }
-    .nav li a:hover {
+    .nav li.nav-item-top a:hover {
       color: #0c20c5; }
-    .nav li a:active, .nav li a:focus {
+    .nav li.nav-item-top a:active, .nav li.nav-item-top a:focus {
       font-weight: bold; }
 
 .nav li:last-child {
@@ -37,10 +40,11 @@
 .nav-top-middle {
   padding-left: 18px; }
 
+/* Searchbar */
 .searchbar {
   text-align: right; }
   .searchbar input {
-    width: 85%;
+    width: 80%;
     font-size: 1.2em;
     padding: 3px 0 3px 17px;
     margin-top: 5px;
@@ -57,11 +61,38 @@
       width: 17px;
       padding-bottom: 3px; }
 
+/***  Navigation bottom part  ***/
+.bottom-nav {
+  font-size: 0.9em;
+  font-weight: 700; }
+
+.bottom-nav-menu {
+  padding: 9px 0 9px 12px; }
+
+.nav li.nav-item-bottom {
+  /*width: 115px;*/ }
+  .nav li.nav-item-bottom a {
+    color: #4f4f4f;
+    padding: 0;
+    padding-left: 2.5em; }
+    .nav li.nav-item-bottom a:hover {
+      color: #0c20c5; }
+    .nav li.nav-item-bottom a:active, .nav li.nav-item-bottom a:focus {
+      font-weight: bold; }
+
+.nav li.nav-item-bottom:first-child a {
+  padding-left: 0; }
+
+.languages {
+  text-align: right;
+  font-size: 0.72em; }
+
 body {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; }
+  font-family: "Open Sans", sans-serif;
+  border-top: 4px solid #01a7a7; }
 
 .container {
-  width: 65%; }
+  width: 72%; }
 
 .red {
   border: 1px solid red; }

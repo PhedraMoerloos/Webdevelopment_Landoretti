@@ -1,17 +1,18 @@
 @import "header";
 
-$font: "Helvetica Neue", Helvetica, Arial, sans-serif;
+$font:'Open Sans', sans-serif;
 
 
 
 
 body {
     font-family: $font;
+    border-top: 4px solid #01a7a7;
 }
 
 
 .container {
-    width: 65%;
+    width: 72%;
 }
 
 
