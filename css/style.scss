@@ -1,3 +1,42 @@
-.nav-room-left {
-    margin-left: 14em;
+@import "header";
+
+
+
+
+body {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+
+.container {
+    width: 70%;
+}
+
+
+
+
+.red {
+
+    border: 1px solid red;
+
+}
+
+
+.blue {
+
+  border: 1px solid blue;
+
+}
+
+
+.yellow {
+
+  border: 1px solid yellow;
+
+}
+
+
+.float-right {
+    text-align: right;
+
 }

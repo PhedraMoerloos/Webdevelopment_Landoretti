@@ -1,0 +1,39 @@
+$primary-color: #06137b;
+$hover-color: #0c20c5;
+
+
+.nav-room-left {
+    margin-left: 10em;
+}
+
+
+.nav-room-between {
+    margin-left: 12em;
+}
+
+
+.top-nav {
+    font-size: 0.75em;
+}
+
+
+
+.nav {
+   li {
+
+     border-right: 1px solid $primary-color;
+
+     a {
+     color: $primary-color;
+
+     &:hover, &:focus {
+        color: $hover-color;
+     }
+
+     &:active {
+       font-weight: bold;
+     }
+
+     }
+   }
+}
