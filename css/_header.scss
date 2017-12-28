@@ -4,9 +4,9 @@ $font-small: 0.72em;
 $font-medium-large: 0.9em;
 
 
-.nav-room-left {
+/*.nav-room-left {
     margin-left: 7em;
-}
+}*/
 
 
 
@@ -14,9 +14,15 @@ $font-medium-large: 0.9em;
 
 /* Menu */
 
+.container-nav-top {
+  width: 100%;
+}
+
 .top-nav {
     font-size: $font-small;
     font-weight: 600;
+    width: 72%;
+    margin-left: 22em;
 }
 
 .top-nav-menu {
@@ -55,7 +61,7 @@ $font-medium-large: 0.9em;
      a {
      color: $primary-color;
      padding: 0;
-     padding-left: 21px;
+     padding-left: 1.7em;
 
      &:hover {
      color: $hover-color;
@@ -92,7 +98,7 @@ $font-medium-large: 0.9em;
 text-align: right;
 
     input {
-    width: 80%;
+    width: 72%;
     font-size: 1.2em;
     padding: 3px 0 3px 17px;
     margin-top: 5px;
@@ -124,9 +130,16 @@ text-align: right;
 
 /***  Navigation bottom part  ***/
 
+.container-nav-bottom {
+   width: 100%;
+   background-color: #eaeaea;
+}
+
 .bottom-nav {
     font-size: $font-medium-large;
     font-weight: 700;
+    width: 72%;
+    margin-left: 17.6em;
 }
 
 .bottom-nav-menu {
@@ -137,12 +150,11 @@ text-align: right;
 .nav {
    li.nav-item-bottom {
 
-   /*width: 115px;*/
+     padding-left: 5%;
 
      a {
      color: #4f4f4f;
      padding: 0;
-     padding-left: 2.5em;
 
 
      &:hover {
@@ -159,11 +171,7 @@ text-align: right;
 
 .nav {
    li.nav-item-bottom:first-child {
-
-     a {
-      padding-left: 0;
-     }
-
+   padding-left: 0;
    }
 }
 
