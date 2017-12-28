@@ -1,6 +1,6 @@
 $primary-color: #06137b;
 $hover-color: #0c20c5;
-$font-small: 0.68em;
+$font-small: 0.72em;
 
 
 .nav-room-left {
@@ -13,8 +13,7 @@ $font-small: 0.68em;
 }
 
 .top-nav-menu {
-  padding-top: 12px;
-  padding-bottom: 12px;
+  padding: 12px 0 12px 12px;
 }
 
 
@@ -22,7 +21,7 @@ $font-small: 0.68em;
    li {
 
    border-right: 1px solid $primary-color;
-   width: 100px;
+   width: 115px;
 
 
 
@@ -68,21 +67,15 @@ $font-small: 0.68em;
 
   li:last-child {
     border: none;
-
-    a:last-child {
-      padding-left: 13px;
-    }
   }
 }
 
 
 .nav-top-middle{
-    padding-left: 14px;
+    padding-left: 18px;
 }
 
-.nav-top-middle-text {
-    padding-left: 21px;
-}
+
 
 
 
@@ -91,18 +84,32 @@ $font-small: 0.68em;
 text-align: right;
 
     input {
-    width: 80%;
+    width: 85%;
     font-size: 1.2em;
     padding: 3px 0 3px 17px;
-    margin-top: 6px;
+    margin-top: 5px;
     border: 1px solid #cbcbcb;
     border-radius: 4px;
     }
 
     ::placeholder { /* Most modern browsers support this now. */
-      color:    #525151;
-      font-style: italic;
+    color:    #525151;
+    font-style: italic;
     }
+
+
+    button {
+    border-style:none;
+    background-color: white;
+
+        img {
+        width: 17px;
+        padding-bottom: 3px;
+        }
+
+    }
+
+
 
 
 }

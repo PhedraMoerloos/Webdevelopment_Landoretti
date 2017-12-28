@@ -2,15 +2,14 @@
   margin-left: 8em; }
 
 .top-nav {
-  font-size: 0.68em; }
+  font-size: 0.72em; }
 
 .top-nav-menu {
-  padding-top: 12px;
-  padding-bottom: 12px; }
+  padding: 12px 0 12px 12px; }
 
 .nav li {
   border-right: 1px solid #06137b;
-  width: 100px; }
+  width: 115px; }
   .nav li #watchlist {
     width: 11px;
     height: 10.5px;
@@ -34,28 +33,29 @@
 
 .nav li:last-child {
   border: none; }
-  .nav li:last-child a:last-child {
-    padding-left: 13px; }
 
 .nav-top-middle {
-  padding-left: 14px; }
-
-.nav-top-middle-text {
-  padding-left: 21px; }
+  padding-left: 18px; }
 
 .searchbar {
   text-align: right; }
   .searchbar input {
-    width: 80%;
+    width: 85%;
     font-size: 1.2em;
     padding: 3px 0 3px 17px;
-    margin-top: 6px;
+    margin-top: 5px;
     border: 1px solid #cbcbcb;
     border-radius: 4px; }
   .searchbar ::placeholder {
     /* Most modern browsers support this now. */
     color: #525151;
     font-style: italic; }
+  .searchbar button {
+    border-style: none;
+    background-color: white; }
+    .searchbar button img {
+      width: 17px;
+      padding-bottom: 3px; }
 
 body {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; }
