@@ -27,13 +27,13 @@
   width: 115px; }
   .nav li.nav-item-top #watchlist {
     width: 11px;
-    height: 10.5px;
-    background: url("../images/nav-footer-icons.svg") -29px -1.5px;
+    height: 11px;
+    background: url("../images/nav-footer-icons.svg") 27px -1px;
     margin-top: 3px; }
   .nav li.nav-item-top #profile {
     width: 13px;
     height: 13.8px;
-    background: url("../images/nav-footer-icons.svg") -42px 0;
+    background: url("../images/nav-footer-icons.svg") 14px 0;
     margin-top: 1px; }
   .nav li.nav-item-top .nav-icons {
     float: left; }
@@ -119,24 +119,18 @@ body {
   font-family: "Open Sans", sans-serif;
   border-top: 4px solid #01a7a7; }
 
-/*.red {
+/***** HOME *****/
+/* Slider top */
+/*aantal zaken aanpassen in bootstrap prev, next icons voor eigen controls */
+.carousel-control-prev-icon, .carousel-control-next-icon {
+  width: 37px;
+  height: 70px;
+  background: url("../images/pijltjes-slider.png") 37px 0; }
 
-    border: 1px solid red;
+.carousel-control-next-icon {
+  background: url("../images/pijltjes-slider.png"); }
 
-}
-
-
-.blue {
-
-  border: 1px solid blue;
-
-}
-
-
-.yellow {
-
-  border: 1px solid yellow;
-
-}*/
+.carousel-control-prev, .carousel-control-next {
+  width: inherit; }
 
 /*# sourceMappingURL=style.css.map */

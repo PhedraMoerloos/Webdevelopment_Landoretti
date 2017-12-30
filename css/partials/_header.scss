@@ -52,8 +52,8 @@ $font-medium-large: 0.9em;
 
      #watchlist {
        width: 11px; // bepalen hoeveel ruimte de afbeelding zal innemen
-       height: 10.5px;
-       background: url('../images/nav-footer-icons.svg') -29px -1.5px; //css image sprite, afbeelding nemen vanaf breedte 29px en hoogte 1.5px
+       height: 11px;
+       background: url('../images/nav-footer-icons.svg') 27px -1px; //css image sprite, afbeelding nemen vanaf breedte 27px en hoogte 1px onder de bovenkant
        margin-top: 3px;
      }
 
@@ -61,7 +61,7 @@ $font-medium-large: 0.9em;
      #profile {
        width: 13px;
        height: 13.8px;
-       background: url('../images/nav-footer-icons.svg') -42px 0;
+       background: url('../images/nav-footer-icons.svg') 14px 0;
        margin-top: 1px;
      }
 
