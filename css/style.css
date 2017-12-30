@@ -133,4 +133,12 @@ body {
 .carousel-control-prev, .carousel-control-next {
   width: inherit; }
 
+.carousel-indicators li {
+  width: 15px;
+  height: 15px;
+  border-radius: 50px;
+  margin: 0 9px 0 9px; }
+.carousel-indicators .active {
+  background-color: #e2e2e2; }
+
 /*# sourceMappingURL=style.css.map */

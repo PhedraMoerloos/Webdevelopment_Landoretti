@@ -35,3 +35,20 @@ body {
 .carousel-control-prev, .carousel-control-next {
     width: inherit;//ipv grote blok a, a dezelfde breedte als controls --> zo komen ze automatisch aan de zijkanten van de slider
 }
+
+
+.carousel-indicators {
+
+  li {
+  width:15px;
+  height:15px;
+  border-radius: 50px;
+  margin: 0 9px 0 9px;
+
+  }
+
+  .active {
+  background-color: #e2e2e2;
+  }
+
+}
