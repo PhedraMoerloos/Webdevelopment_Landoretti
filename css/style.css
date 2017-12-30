@@ -121,7 +121,7 @@ body {
 
 /***** HOME *****/
 /* Slider top */
-/*aantal zaken aanpassen in bootstrap prev, next icons voor eigen controls */
+/*eigen controls*/
 .carousel-control-prev-icon, .carousel-control-next-icon {
   width: 37px;
   height: 70px;
@@ -133,6 +133,7 @@ body {
 .carousel-control-prev, .carousel-control-next {
   width: inherit; }
 
+/* eigen indicators */
 .carousel-indicators li {
   width: 15px;
   height: 15px;
@@ -140,5 +141,19 @@ body {
   margin: 0 9px 0 9px; }
 .carousel-indicators .active {
   background-color: #e2e2e2; }
+
+/* tekst blok op slider */
+.text-on-slider {
+  position: absolute;
+  background-color: rgba(2, 34, 172, 0.6);
+  right: 0;
+  bottom: 13%;
+  left: 0;
+  margin-right: 15%;
+  margin-left: 15%;
+  padding: 34px; }
+  .text-on-slider p {
+    color: #fff;
+    font-size: 0.9em; }
 
 /*# sourceMappingURL=style.css.map */

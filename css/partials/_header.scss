@@ -1,5 +1,7 @@
 $container-width: 75%;
 $primary-color: #06137b;
+$secondary-color-dark: #4f4f4f;
+$secondary-color-light: #fff;
 $hover-color: #0c20c5;
 $hover-color-nav: #2c2b2b;
 $font-small: 0.72em;
@@ -165,7 +167,7 @@ text-align: right;
      margin-left: 5%;
 
      a {
-     color: #4f4f4f;
+     color: $secondary-color-dark;
      padding: 0;
 
 

@@ -1,6 +1,14 @@
 @import "partials/header";
 
 $font:'Open Sans', sans-serif;
+$container-width: 75%;
+$primary-color: #06137b;
+$secondary-color-dark: #4f4f4f;
+$secondary-color-light: #fff;
+$hover-color: #0c20c5;
+$hover-color-nav: #2c2b2b;
+$font-small: 0.72em;
+$font-medium-large: 0.9em;
 
 
 
@@ -18,7 +26,7 @@ body {
 
 /* Slider top */
 
-/*aantal zaken aanpassen in bootstrap prev, next icons voor eigen controls */
+/*eigen controls*/
 .carousel-control-prev-icon {
     width: 37px;
     height: 70px;
@@ -37,6 +45,8 @@ body {
 }
 
 
+
+/* eigen indicators */
 .carousel-indicators {
 
   li {
@@ -50,5 +60,24 @@ body {
   .active {
   background-color: #e2e2e2;
   }
+
+}
+
+
+/* tekst blok op slider */
+.text-on-slider {
+position: absolute;
+background-color: rgba(2, 34, 172, 0.6);
+right: 0;
+bottom: 13%;
+left: 0;
+margin-right: 15%;
+margin-left: 15%;
+padding: 34px;
+
+    p {
+    color: $secondary-color-light;
+    font-size: $font-medium-large;
+    }
 
 }
