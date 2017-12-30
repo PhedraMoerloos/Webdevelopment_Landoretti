@@ -1,12 +1,24 @@
+$container-width: 75%;
 $primary-color: #06137b;
 $hover-color: #0c20c5;
+$hover-color-nav: #2c2b2b;
 $font-small: 0.72em;
 $font-medium-large: 0.9em;
 
 
-/*.nav-room-left {
-    margin-left: 7em;
-}*/
+/* Naviagtion Logo */
+
+.logo-space {
+    position: relative; // Parent position relative om child met position absolute boven alles anders te laten komen
+}
+
+
+.logo-top {
+    position: absolute;
+    margin-left: 10%;
+    margin-top: -18px; // om hem boven zelf de padding van de body te laten komen
+    z-index: 1; // Om hem boven de slider te laten uitkomen
+}
 
 
 
@@ -15,14 +27,14 @@ $font-medium-large: 0.9em;
 /* Menu */
 
 .container-nav-top {
-  width: 100%;
+    width: 100%;
 }
 
 .top-nav {
     font-size: $font-small;
     font-weight: 600;
-    width: 72%;
-    margin-left: 22em;
+    width: $container-width;
+    margin-left: 18.6%;
 }
 
 .top-nav-menu {
@@ -39,9 +51,9 @@ $font-medium-large: 0.9em;
 
 
      #watchlist {
-       width: 11px;
+       width: 11px; // bepalen hoeveel ruimte de afbeelding zal innemen
        height: 10.5px;
-       background: url('../images/nav-footer-icons.svg') -29px -1.5px;
+       background: url('../images/nav-footer-icons.svg') -29px -1.5px; //css image sprite, afbeelding nemen vanaf breedte 29px en hoogte 1.5px
        margin-top: 3px;
      }
 
@@ -85,7 +97,7 @@ $font-medium-large: 0.9em;
 
 
 .nav-top-middle{
-    padding-left: 18px;
+    padding-left: 1.7em;
 }
 
 
@@ -106,14 +118,14 @@ text-align: right;
     border-radius: 4px;
     }
 
-    ::placeholder { /* Most modern browsers support this now. */
+    ::placeholder {
     color:    #525151;
     font-style: italic;
     }
 
 
     button {
-    border-style:none;
+    border-style: none;
     background-color: white;
 
         img {
@@ -138,8 +150,8 @@ text-align: right;
 .bottom-nav {
     font-size: $font-medium-large;
     font-weight: 700;
-    width: 72%;
-    margin-left: 17.6em;
+    width: $container-width;
+    margin-left: 18.6%;
 }
 
 .bottom-nav-menu {
@@ -150,7 +162,7 @@ text-align: right;
 .nav {
    li.nav-item-bottom {
 
-     padding-left: 5%;
+     margin-left: 5%;
 
      a {
      color: #4f4f4f;
@@ -158,7 +170,7 @@ text-align: right;
 
 
      &:hover {
-     color: $hover-color;
+     color: $hover-color-nav;
      }
 
      &:active, &:focus {
@@ -171,7 +183,7 @@ text-align: right;
 
 .nav {
    li.nav-item-bottom:first-child {
-   padding-left: 0;
+   margin-left: 0;
    }
 }
 
