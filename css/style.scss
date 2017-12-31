@@ -113,6 +113,7 @@ z-index: 1;
   text-align: center;
   color: $primary-color;
   margin: 1.3em auto 0 auto;
+  font-weight: 400;
 }
 
 
@@ -132,4 +133,22 @@ padding-bottom: 2.9em;
   h4 {
   margin-top: 1.5em;
   }
+}
+
+
+
+
+/*** CAROUSEL ***/
+
+.container-carousel {
+@extend .container-nav-bottom;
+@extend .home-info-col;
+background-color: #f3f3f3;
+
+  .home-carousel-title {
+  @extend .home-info-title;
+  margin-top: 0;
+  margin-bottom: 1.3em;
+  }
+
 }

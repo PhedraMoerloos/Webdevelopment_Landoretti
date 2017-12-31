@@ -10,7 +10,7 @@
 
 /***  Navigation top part  ****/
 /* Menu */
-.container-nav-top, .container-nav-bottom {
+.container-nav-top, .container-nav-bottom, .container-carousel {
   width: 100%; }
 
 .top-nav {
@@ -77,7 +77,7 @@
       padding-bottom: 3px; }
 
 /***  Navigation bottom part  ***/
-.container-nav-bottom {
+.container-nav-bottom, .container-carousel {
   background-color: #eaeaea; }
 
 .bottom-nav {
@@ -175,20 +175,28 @@ body {
     margin-bottom: 0; }
 
 /*** INFO KOLOMMEN ***/
-.home-info-title {
+.home-info-title, .container-carousel .home-carousel-title {
   text-align: center;
   color: #06137b;
-  margin: 1.3em auto 0 auto; }
+  margin: 1.3em auto 0 auto;
+  font-weight: 400; }
 
-.home-info-col {
+.home-info-col, .container-carousel {
   padding-top: 2.9em;
   padding-bottom: 2.9em; }
-  .home-info-col img {
+  .home-info-col img, .container-carousel img {
     display: block;
     margin: 0 auto; }
-  .home-info-col p, .home-info-col h4 {
+  .home-info-col p, .container-carousel p, .home-info-col h4, .container-carousel h4 {
     text-align: center; }
-  .home-info-col h4 {
+  .home-info-col h4, .container-carousel h4 {
     margin-top: 1.5em; }
+
+/*** CAROUSEL ***/
+.container-carousel {
+  background-color: #f3f3f3; }
+  .container-carousel .home-carousel-title {
+    margin-top: 0;
+    margin-bottom: 1.3em; }
 
 /*# sourceMappingURL=style.css.map */
