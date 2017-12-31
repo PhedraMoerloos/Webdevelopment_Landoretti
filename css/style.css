@@ -4,7 +4,7 @@
 
 .logo-top {
   position: absolute;
-  margin-left: 10%;
+  margin-left: 15%;
   margin-top: -18px;
   z-index: 1; }
 
@@ -16,11 +16,13 @@
 .top-nav {
   font-size: 0.72em;
   font-weight: 600;
-  width: 75%;
-  margin-left: 18.6%; }
+  width: 70%;
+  margin-left: 15%; }
 
 .top-nav-menu {
-  padding: 12px 0 12px 12px; }
+  padding: 12px 0 12px 12px;
+  margin-left: 12%;
+  width: 58%; }
 
 .nav li.nav-item-top {
   border-right: 1px solid #06137b;
@@ -54,7 +56,8 @@
 
 /* Searchbar */
 .searchbar {
-  text-align: right; }
+  text-align: right;
+  width: 30%; }
   .searchbar input {
     width: 72%;
     font-size: 1.2em;
@@ -67,7 +70,8 @@
     font-style: italic; }
   .searchbar button {
     border-style: none;
-    background-color: white; }
+    background-color: white;
+    padding-right: 0; }
     .searchbar button img {
       width: 17px;
       padding-bottom: 3px; }
@@ -80,11 +84,13 @@
 .bottom-nav {
   font-size: 0.9em;
   font-weight: 700;
-  width: 75%;
-  margin-left: 18.6%; }
+  width: 70%;
+  margin-left: 15%; }
 
 .bottom-nav-menu {
-  padding: 9px 0 9px 12px; }
+  padding: 9px 0 9px 12px;
+  margin-left: 12%;
+  width: 76%; }
 
 .nav li.nav-item-bottom {
   margin-left: 5%; }
@@ -102,7 +108,9 @@
 .languages {
   text-align: right;
   font-size: 0.8em;
-  font-weight: 600; }
+  font-weight: 600;
+  padding-right: 0;
+  width: 12%; }
   .languages p {
     margin-bottom: 0;
     margin-top: 10px; }
@@ -135,8 +143,8 @@ body {
 
 /* eigen indicators */
 .carousel-indicators li {
-  width: 15px;
-  height: 15px;
+  width: 13px;
+  height: 13px;
   border-radius: 50px;
   margin: 0 9px 0 9px; }
 .carousel-indicators .active {
@@ -154,6 +162,7 @@ body {
   padding: 34px; }
   .text-on-slider p {
     color: #fff;
-    font-size: 0.9em; }
+    font-size: 0.9em;
+    margin-bottom: 0; }
 
 /*# sourceMappingURL=style.css.map */

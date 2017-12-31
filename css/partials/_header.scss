@@ -1,4 +1,4 @@
-$container-width: 75%;
+$container-width: 70%;
 $primary-color: #06137b;
 $secondary-color-dark: #4f4f4f;
 $secondary-color-light: #fff;
@@ -17,7 +17,7 @@ $font-medium-large: 0.9em;
 
 .logo-top {
     position: absolute;
-    margin-left: 10%;
+    margin-left: 15%;
     margin-top: -18px; // om hem boven zelf de padding van de body te laten komen
     z-index: 1; // Om hem boven de slider te laten uitkomen
 }
@@ -36,11 +36,13 @@ $font-medium-large: 0.9em;
     font-size: $font-small;
     font-weight: 600;
     width: $container-width;
-    margin-left: 18.6%;
+    margin-left: 15%;
 }
 
 .top-nav-menu {
   padding: 12px 0 12px 12px;
+  margin-left: 12%;
+  width: 58%;
 }
 
 
@@ -110,6 +112,7 @@ $font-medium-large: 0.9em;
 
 .searchbar {
 text-align: right;
+width: 30%;
 
     input {
     width: 72%;
@@ -129,6 +132,7 @@ text-align: right;
     button {
     border-style: none;
     background-color: white;
+    padding-right: 0;
 
         img {
         width: 17px;
@@ -153,11 +157,13 @@ text-align: right;
     font-size: $font-medium-large;
     font-weight: 700;
     width: $container-width;
-    margin-left: 18.6%;
+    margin-left: 15%;
 }
 
 .bottom-nav-menu {
   padding: 9px 0 9px 12px;
+  margin-left: 12%;
+  width: 76%;
 }
 
 
@@ -198,6 +204,8 @@ text-align: right;
 text-align: right;
 font-size: 0.8em;
 font-weight: 600;
+padding-right: 0;
+width: 12%;
 
   p {
 

@@ -50,8 +50,8 @@ body {
 .carousel-indicators {
 
   li {
-  width:15px;
-  height:15px;
+  width:13px;
+  height:13px;
   border-radius: 50px;
   margin: 0 9px 0 9px;
 
@@ -78,6 +78,7 @@ padding: 34px;
     p {
     color: $secondary-color-light;
     font-size: $font-medium-large;
+    margin-bottom: 0;
     }
 
 }
