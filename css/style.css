@@ -10,7 +10,7 @@
 
 /***  Navigation top part  ****/
 /* Menu */
-.container-nav-top {
+.container-nav-top, .container-nav-bottom {
   width: 100%; }
 
 .top-nav {
@@ -21,8 +21,8 @@
 
 .top-nav-menu {
   padding: 12px 0 12px 12px;
-  margin-left: 12%;
-  width: 58%; }
+  margin-left: 14%;
+  width: 56%; }
 
 .nav li.nav-item-top {
   border-right: 1px solid #06137b;
@@ -78,7 +78,6 @@
 
 /***  Navigation bottom part  ***/
 .container-nav-bottom {
-  width: 100%;
   background-color: #eaeaea; }
 
 .bottom-nav {
@@ -89,8 +88,8 @@
 
 .bottom-nav-menu {
   padding: 9px 0 9px 12px;
-  margin-left: 12%;
-  width: 76%; }
+  margin-left: 14%;
+  width: 74%; }
 
 .nav li.nav-item-bottom {
   margin-left: 5%; }
@@ -125,10 +124,14 @@
 
 body {
   font-family: "Open Sans", sans-serif;
-  border-top: 4px solid #01a7a7; }
+  border-top: 4px solid #01a7a7;
+  color: #4f4f4f; }
 
-/***** HOME *****/
-/* Slider top */
+.container {
+  width: 70%; }
+
+/************ HOME ***********/
+/*** SLIDER TOP ***/
 /*eigen controls*/
 .carousel-control-prev-icon, .carousel-control-next-icon {
   width: 37px;
@@ -150,19 +153,36 @@ body {
 .carousel-indicators .active {
   background-color: #e2e2e2; }
 
+/* bol icoon op tekst blok */
+.circle-icon, .text-on-slider {
+  position: absolute;
+  left: 0;
+  bottom: 35%;
+  margin-left: 13.25%;
+  z-index: 2; }
+
 /* tekst blok op slider */
 .text-on-slider {
-  position: absolute;
   background-color: rgba(2, 34, 172, 0.6);
-  right: 0;
   bottom: 13%;
-  left: 0;
-  margin-right: 15%;
   margin-left: 15%;
-  padding: 34px; }
+  margin-right: 15%;
+  padding: 34px;
+  z-index: 1; }
   .text-on-slider p {
     color: #fff;
     font-size: 0.9em;
     margin-bottom: 0; }
+
+/*** INFO KOLOMMEN ***/
+.home-info-col {
+  padding: 3.5em; }
+  .home-info-col img {
+    display: block;
+    margin: 0 auto; }
+  .home-info-col p, .home-info-col h4 {
+    text-align: center; }
+  .home-info-col h4 {
+    margin-top: 1.5em; }
 
 /*# sourceMappingURL=style.css.map */

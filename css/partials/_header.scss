@@ -28,7 +28,7 @@ $font-medium-large: 0.9em;
 
 /* Menu */
 
-.container-nav-top {
+.container-nav-top, .container-nav-bottom {
     width: 100%;
 }
 
@@ -41,8 +41,8 @@ $font-medium-large: 0.9em;
 
 .top-nav-menu {
   padding: 12px 0 12px 12px;
-  margin-left: 12%;
-  width: 58%;
+  margin-left: 14%;
+  width: 56%;
 }
 
 
@@ -149,7 +149,6 @@ width: 30%;
 /***  Navigation bottom part  ***/
 
 .container-nav-bottom {
-   width: 100%;
    background-color: #eaeaea;
 }
 
@@ -162,8 +161,8 @@ width: 30%;
 
 .bottom-nav-menu {
   padding: 9px 0 9px 12px;
-  margin-left: 12%;
-  width: 76%;
+  margin-left: 14%;
+  width: 74%;
 }
 
 

@@ -1,7 +1,7 @@
 @import "partials/header";
 
 $font:'Open Sans', sans-serif;
-$container-width: 75%;
+$container-width: 70%;
 $primary-color: #06137b;
 $secondary-color-dark: #4f4f4f;
 $secondary-color-light: #fff;
@@ -16,15 +16,24 @@ $font-medium-large: 0.9em;
 body {
     font-family: $font;
     border-top: 4px solid #01a7a7;
+    color: $secondary-color-dark;
+}
+
+
+.container {
+    width: $container-width;
 }
 
 
 
-/***** HOME *****/
+/************ HOME ***********/
 
 
 
-/* Slider top */
+
+
+/*** SLIDER TOP ***/
+
 
 /*eigen controls*/
 .carousel-control-prev-icon {
@@ -64,16 +73,27 @@ body {
 }
 
 
+
+/* bol icoon op tekst blok */
+.circle-icon {
+  position: absolute;
+  left: 0;
+  bottom: 35%;
+  margin-left: 13.25%;
+  z-index: 2;
+}
+
+
+
 /* tekst blok op slider */
 .text-on-slider {
-position: absolute;
+@extend .circle-icon;
 background-color: rgba(2, 34, 172, 0.6);
-right: 0;
 bottom: 13%;
-left: 0;
-margin-right: 15%;
 margin-left: 15%;
+margin-right: 15%;
 padding: 34px;
+z-index: 1;
 
     p {
     color: $secondary-color-light;
@@ -81,4 +101,26 @@ padding: 34px;
     margin-bottom: 0;
     }
 
+}
+
+
+
+
+/*** INFO KOLOMMEN ***/
+
+.home-info-col {
+padding: 3.5em;
+
+  img {
+  display: block;
+  margin: 0 auto;
+  }
+
+  p, h4 {
+  text-align: center;
+  }
+
+  h4 {
+  margin-top: 1.5em;
+  }
 }
