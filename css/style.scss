@@ -108,8 +108,17 @@ z-index: 1;
 
 /*** INFO KOLOMMEN ***/
 
+
+.home-info-title {
+  text-align: center;
+  color: $primary-color;
+  margin: 1.3em auto 0 auto;
+}
+
+
 .home-info-col {
-padding: 3.5em;
+padding-top: 2.9em;
+padding-bottom: 2.9em;
 
   img {
   display: block;
