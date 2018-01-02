@@ -146,9 +146,38 @@ padding-bottom: 2.9em;
 background-color: #f3f3f3;
 
   .home-carousel-title {
-  @extend .home-info-title;
   margin-top: 0;
   margin-bottom: 1.3em;
+  text-align: center;
+
+    h2 {
+    color: $primary-color;
+    }
   }
 
+  #more-arrow {
+    width: 28px;
+    height: 28px;
+    background: url('../images/carousel-pijltjes.png') -1px -1px;
+    margin-left: 12px;
+    margin-bottom: 0.7em;
+  }
+
+
+
+}
+
+/***  positioning elements  ***/
+.display-inline, img.display-inline {
+    display: inline-block;
+}
+
+.float {
+  float:left;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
 }
