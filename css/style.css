@@ -193,18 +193,41 @@ body {
 /*** CAROUSEL ***/
 .container-carousel {
   background-color: #f3f3f3; }
-  .container-carousel .home-carousel-title {
-    margin-top: 0;
-    margin-bottom: 1.3em;
-    text-align: center; }
-    .container-carousel .home-carousel-title h2 {
-      color: #06137b; }
-  .container-carousel #more-arrow {
+
+/*  title */
+.home-carousel-title {
+  margin-top: 0;
+  margin-bottom: 1.3em;
+  text-align: center; }
+  .home-carousel-title h2 {
+    color: #06137b; }
+  .home-carousel-title #more-arrow {
     width: 28px;
     height: 28px;
-    background: url("../images/carousel-pijltjes.png") -1px -1px;
-    margin-left: 12px;
+    background: url("../images/carousel-pijltjes.png");
     margin-bottom: 0.7em; }
+  .home-carousel-title .more-arrow-link {
+    margin-left: 12px;
+    /*@if (a.more-arrow-link:active, a.more-arrow-link:hover) {
+      #more-arrow {
+        background: url('../images/carousel-pijltjes.png') 27px 0;
+      }
+    }*/ }
+
+/* mosaic */
+.grid {
+  margin-bottom: 2.7em; }
+
+.grid-item {
+  width: 33%;
+  float: left; }
+
+.grid-item:last-child {
+  margin-top: 9px; }
+
+.grid-item--width2 {
+  width: 66%;
+  float: right; }
 
 /***  positioning elements  ***/
 .display-inline, img.display-inline {
