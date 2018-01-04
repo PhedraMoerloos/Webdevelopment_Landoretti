@@ -13,23 +13,52 @@
     padding-top: 2em;
 }
 
-.footer .col:last-child {
-  border-left: 1px solid #eaeaea;
-}
-
-
-.footer-title {
-  font-size: 1.2em;
-  font-weight: bold;
-  color: black;
-
-}
 
 .col .blok {
   margin-bottom: 1.5em;
 
-  p {
-    margin-bottom: 0;
+  a {
     font-size: 0.9em;
   }
+
+  p {
+    margin-bottom: 0;
+  }
+}
+
+
+p.footer-title {
+  font-weight: bold;
+  color: black;
+  margin-bottom: 0;
+
+}
+
+
+
+.footer .col:last-child {
+  border-left: 1px solid #eaeaea;
+  padding-left: 30px;
+
+  p {
+    font-size: 0.9em;
+  }
+
+  a {
+    font-size: 1em;
+    text-decoration: underline;
+
+    &:hover {
+      color: #007773;
+    }
+  }
+
+  .footer-title {
+    margin-bottom: 0.1em;
+    font-size: 1em;
+  }
+
+
+
+
 }
