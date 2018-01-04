@@ -1,6 +1,5 @@
 .container-footer {
   width: 100%;
-  padding-top: 2em;
   padding-bottom: 1em;
   border-top: 1px solid #eaeaea;
 
@@ -8,4 +7,25 @@
 
 .padding-0 {
   padding: 0;
+}
+
+.footer .col {
+    padding-top: 2em;
+}
+
+
+.footer-title {
+  font-size: 1.2em;
+  font-weight: bold;
+  color: black;
+
+}
+
+.col .blok {
+  margin-bottom: 1.5em;
+
+  p {
+    margin-bottom: 0;
+    font-size: 0.9em;
+  }
 }

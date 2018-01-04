@@ -122,17 +122,33 @@
 
 .container-footer {
   width: 100%;
-  padding-top: 2em;
   padding-bottom: 1em;
   border-top: 1px solid #eaeaea; }
 
 .padding-0 {
   padding: 0; }
 
+.footer .col {
+  padding-top: 2em; }
+
+.footer-title {
+  font-size: 1.2em;
+  font-weight: bold;
+  color: black; }
+
+.col .blok {
+  margin-bottom: 1.5em; }
+  .col .blok p {
+    margin-bottom: 0;
+    font-size: 0.9em; }
+
 body {
   font-family: "Open Sans", sans-serif;
   border-top: 4px solid #01a7a7;
   color: #4f4f4f; }
+
+a, a:hover, a:active, a:focus {
+  color: #00ada7; }
 
 .container {
   width: 70%; }
