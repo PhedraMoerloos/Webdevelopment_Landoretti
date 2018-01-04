@@ -159,65 +159,35 @@ text-align: center;
   color: $primary-color;
   }
 
-  #more-arrow {
-    width: 28px;
-    height: 28px;
-    background: url('../images/carousel-pijltjes.png');
-    margin-bottom: 0.7em;
-
-  }
-
   .more-arrow-link {
     margin-left: 12px;
 
-    /*@if (a.more-arrow-link:active, a.more-arrow-link:hover) {
-      #more-arrow {
-        background: url('../images/carousel-pijltjes.png') 27px 0;
-      }
-    }*/
+    #more-arrow {
+      width: 28px;
+      height: 28px;
+      background: url('../images/carousel-pijltjes.png');
+      margin-bottom: 0.7em;
+
+    }
+
   }
 
 
 }
 
 
-/* mosaic */
+.more-arrow-link:active, .more-arrow-link:focus {
 
-
-/*.grid-item {
-  width: 33%;
-  float:left;
-}
-
-.mozaik-left-top {
-  position: relative;
-}
-
-.overlay {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  height: 100%;
-  width: 100%;
-  opacity: 0;
-  transition: .5s ease;
-
-  .overlay-1 img {
-    position: absolute;
-    transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    width: 33%;
-    left: 16.5%;
-    margin-top:90px;
+  #more-arrow {
+    background: url('../images/carousel-pijltjes.png') 27px 0;
   }
+
 }
 
-.mozaik-left-top:hover .overlay {
-  opacity: 1;
-}*/
 
+
+
+/*** Mosaic images ***/
 .mozaik {
     margin-bottom: 2.7em;
 }
