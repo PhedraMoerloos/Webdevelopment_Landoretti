@@ -131,6 +131,9 @@
 .footer .col {
   padding-top: 2em; }
 
+.footer .col:last-child {
+  border-left: 1px solid #eaeaea; }
+
 .footer-title {
   font-size: 1.2em;
   font-weight: bold;
@@ -145,6 +148,7 @@
 body {
   font-family: "Open Sans", sans-serif;
   border-top: 4px solid #01a7a7;
+  border-bottom: 4px solid #01a6a0;
   color: #4f4f4f; }
 
 a, a:hover, a:active, a:focus {
@@ -264,6 +268,9 @@ a, a:hover, a:active, a:focus {
       left: 0; }
       .mozaik-image .position .overlay a img {
         width: 50%; }
+
+.mozaik-image:nth-child(2) .position .overlay a img {
+  width: 100%; }
 
 .mozaik-image:hover .position .overlay {
   opacity: 1; }
