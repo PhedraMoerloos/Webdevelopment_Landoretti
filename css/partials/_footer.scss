@@ -59,6 +59,46 @@ p.footer-title {
   }
 
 
+}
 
+.contact-info p {
+  margin-left: 5px;
+}
 
+#cellphone {
+  width: 10px;
+  height: 13px;
+  background: url('../images/nav-footer-icons.svg') 39px 0;
+}
+
+#mail {
+  width: 13px;
+  height: 10px;
+  background: url('../images/nav-footer-icons.svg') 56px 0;
+}
+
+.social-icons a img {
+  width: 32px;
+  height: 32px;
+  margin-right: 5px;
+}
+
+.social-icons a:last-child img {
+  margin-right: 0;
+}
+
+#facebook {
+  background: url('../images/social.svg');
+}
+
+#twitter {
+  background: url('../images/social.svg') 97px 0;
+}
+
+#youtube {
+  background: url('../images/social.svg') 65px 0;
+}
+
+#google {
+  background: url('../images/social.svg') 33px 0;
 }
