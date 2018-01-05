@@ -123,14 +123,14 @@
 /*** ALGEMEEN ***/
 .container-footer {
   width: 100%;
-  padding-bottom: 1em;
   border-top: 1px solid #eaeaea; }
 
 .padding-0 {
   padding: 0; }
 
 .footer .col {
-  padding-top: 2em; }
+  padding-top: 2em;
+  padding-bottom: 1.5em; }
 
 .col .blok {
   margin-bottom: 1.5em; }
@@ -145,10 +145,14 @@ p.footer-title {
   color: black;
   margin-bottom: 0; }
 
+.footer .col:nth-child(3) {
+  padding-right: 0; }
+
 /* Laatste kolom */
 .footer .col:last-child {
   border-left: 1px solid #eaeaea;
-  padding-left: 30px; }
+  padding-left: 30px;
+  position: relative; }
   .footer .col:last-child p {
     font-size: 0.9em; }
   .footer .col:last-child a {
@@ -205,11 +209,20 @@ p.footer-title {
 #google {
   background: url("../images/social.svg") 33px 0; }
 
+/* Copyright */
+.footer .col:last-child p.copyright {
+  font-size: 0.72em;
+  margin-bottom: 0;
+  color: #8e9090;
+  position: absolute;
+  bottom: 1.5em; }
+
 body {
   font-family: "Open Sans", sans-serif;
   border-top: 4px solid #01a7a7;
   border-bottom: 4px solid #01a6a0;
-  color: #4f4f4f; }
+  color: #4f4f4f;
+  font-size: 16px; }
 
 a, a:hover, a:active, a:focus {
   color: #00ada7; }

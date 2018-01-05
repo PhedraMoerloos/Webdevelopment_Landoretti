@@ -15,11 +15,13 @@ $font-medium-large: 0.9em;
 
 
 
+
 body {
     font-family: $font;
     border-top: 4px solid #01a7a7;
     border-bottom: 4px solid #01a6a0;
     color: $secondary-color-dark;
+    font-size: 16px;
 }
 
 a, a:hover, a:active, a:focus {

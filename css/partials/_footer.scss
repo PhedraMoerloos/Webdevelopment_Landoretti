@@ -2,7 +2,6 @@
 
 .container-footer {
   width: 100%;
-  padding-bottom: 1em;
   border-top: 1px solid #eaeaea;
 
 }
@@ -12,7 +11,8 @@
 }
 
 .footer .col {
-    padding-top: 2em;
+    padding-top: 2em; // normaal zou ik ze op een hoger element zetten maar voor de linker border op de laatste kolom te kunnen zetten is het zo best
+    padding-bottom: 1.5em;
 }
 
 
@@ -40,11 +40,17 @@ p.footer-title {
 }
 
 
+.footer .col:nth-child(3) {
+  padding-right: 0;
+}
+
+
 
 /* Laatste kolom */
 .footer .col:last-child {
   border-left: 1px solid #eaeaea;
   padding-left: 30px;
+  position: relative;
 
   p {
     font-size: 0.9em;
@@ -132,4 +138,17 @@ p.footer-title {
 
 #google {
   background: url('../images/social.svg') 33px 0;
+}
+
+
+
+/* Copyright */
+.footer .col:last-child {
+  p.copyright {
+    font-size: 0.72em;
+    margin-bottom: 0;
+    color: #8e9090;
+    position: absolute;
+    bottom: 1.5em;
+  }
 }
