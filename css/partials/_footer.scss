@@ -1,3 +1,5 @@
+/*** ALGEMEEN ***/
+
 .container-footer {
   width: 100%;
   padding-bottom: 1em;
@@ -27,6 +29,9 @@
 }
 
 
+
+
+/* Kolom 1 -3 */
 p.footer-title {
   font-weight: bold;
   color: black;
@@ -36,6 +41,7 @@ p.footer-title {
 
 
 
+/* Laatste kolom */
 .footer .col:last-child {
   border-left: 1px solid #eaeaea;
   padding-left: 30px;
@@ -54,13 +60,34 @@ p.footer-title {
   }
 
   .footer-title {
-    margin-bottom: 0.1em;
+    margin-bottom: 0.5em;
     font-size: 1em;
   }
 
-
 }
 
+
+
+/* Searchbar */
+.search-footer {
+  .searchbar {
+    width: 100%;
+    text-align: left;
+
+    input {
+      font-size: 0.9em;
+      width: 86%;
+    }
+
+    button {
+      padding-left: 3px;
+    }
+  }
+}
+
+
+
+/* Contact info */
 .contact-info p {
   margin-left: 5px;
 }
@@ -77,6 +104,10 @@ p.footer-title {
   background: url('../images/nav-footer-icons.svg') 56px 0;
 }
 
+
+
+
+/* Social media */
 .social-icons a img {
   width: 32px;
   height: 32px;
