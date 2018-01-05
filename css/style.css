@@ -2,10 +2,10 @@
 .logo-space {
   position: relative; }
 
-.logo-top {
+.logo-top, .logo-bottom {
   position: absolute;
   margin-left: 15%;
-  margin-top: -18px;
+  margin-top: -4px;
   z-index: 1; }
 
 /***  Navigation top part  ****/
@@ -130,7 +130,7 @@
 
 .footer .col {
   padding-top: 2em;
-  padding-bottom: 1.5em; }
+  padding-bottom: 1.7em; }
 
 .col .blok {
   margin-bottom: 1.5em; }
@@ -215,7 +215,12 @@ p.footer-title {
   margin-bottom: 0;
   color: #8e9090;
   position: absolute;
-  bottom: 1.5em; }
+  bottom: 1.7em; }
+
+/* logo footer bottom part */
+.logo-bottom {
+  margin-top: 0;
+  bottom: -4px; }
 
 body {
   font-family: "Open Sans", sans-serif;

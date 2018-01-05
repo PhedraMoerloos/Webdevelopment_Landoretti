@@ -12,7 +12,7 @@
 
 .footer .col {
     padding-top: 2em; // normaal zou ik ze op een hoger element zetten maar voor de linker border op de laatste kolom te kunnen zetten is het zo best
-    padding-bottom: 1.5em;
+    padding-bottom: 1.7em;
 }
 
 
@@ -149,6 +149,16 @@ p.footer-title {
     margin-bottom: 0;
     color: #8e9090;
     position: absolute;
-    bottom: 1.5em;
+    bottom: 1.7em;
   }
+}
+
+
+/* logo footer bottom part */
+
+.logo-bottom {
+  @extend .logo-top;
+  margin-top: 0;
+  bottom: -4px; 
+
 }
