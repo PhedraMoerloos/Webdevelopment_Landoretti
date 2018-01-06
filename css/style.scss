@@ -96,7 +96,8 @@ a, a:hover, a:active, a:focus {
 
 /* tekst blok op slider */
 .text-on-slider {
-@extend .circle-icon;
+position: absolute;
+left: 0;
 background-color: rgba(2, 34, 172, 0.6);
 bottom: 13%;
 margin-left: 15%;
@@ -300,4 +301,25 @@ text-align: center;
   -ms-flex-align: center;
   align-items: center;
   height: 100%;
+}
+
+
+/**  MEDIA QUERIES **/
+@media screen and (max-width: 1227px) {
+  .circle-icon {
+    bottom: 40%;
+  }
+}
+
+@media screen and (max-width: 1147px) {
+  .circle-icon {
+    bottom: 42%;
+  }
+}
+
+
+@media screen and (max-width: 1088px) {
+  .text-on-slider p {
+    font-size: 0.80em;
+  }
 }

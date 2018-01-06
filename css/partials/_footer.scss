@@ -159,6 +159,43 @@ p.footer-title {
 .logo-bottom {
   @extend .logo-top;
   margin-top: 0;
-  bottom: -4px; 
+  bottom: -4px;
+
+}
+
+
+
+
+
+/**  MEDIA QUERIES **/
+
+@media screen and (max-width: 1185px) {
+  .col .blok p, .col:last-child .blok .footer-title {
+    font-size: 0.95em;
+  }
+
+  .footer .col:last-child p, .search-footer .searchbar input {
+    font-size: 0.85em;
+  }
+
+  .search-footer .searchbar input {
+    width: 80%;
+  }
+
+}
+
+
+@media screen and (max-width: 1136px) {
+  .col .blok p, .col:last-child .blok .footer-title {
+    font-size: 0.90em;
+  }
+
+  .footer .col:last-child p, .search-footer .searchbar input {
+    font-size: 0.80em;
+  }
+
+  #google {
+    margin-top: 5px;
+  }
 
 }
