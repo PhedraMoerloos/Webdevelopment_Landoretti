@@ -54,34 +54,44 @@
   padding-left: 1.7em; }
 
 /* Nav not logged in */
-.logged-out .nav li.nav-item-top {
+#logged-out .nav li.nav-item-top {
   width: 90px; }
-  .logged-out .nav li.nav-item-top a {
+  #logged-out .nav li.nav-item-top a {
     padding-left: 45%; }
-.logged-out .nav li.nav-item-top:first-child a {
+#logged-out .nav li.nav-item-top:first-child a {
   padding-left: 0; }
 
+#login, #logged-in {
+  display: none; }
+
 /* Nav login */
-.login .nav li.nav-item-top {
+#login .nav li.nav-item-top {
   width: 90px;
   margin-left: 4.5%;
-  border: none; }
-  .login .nav li.nav-item-top input {
-    font-style: italic;
+  border: none;
+  margin-top: -2px; }
+  #login .nav li.nav-item-top input {
     padding-left: 3px;
     width: 100%;
     background-color: #f8f8f8;
     border: 1px solid #e5e5e5; }
-  .login .nav li.nav-item-top a {
+  #login .nav li.nav-item-top ::placeholder {
+    font-style: italic; }
+  #login .nav li.nav-item-top a {
     padding-left: 0; }
-  .login .nav li.nav-item-top button {
+  #login .nav li.nav-item-top button {
     border-style: none;
-    padding: 0; }
-.login .nav li.nav-item-top:last-child {
+    background-color: #e4e4e4;
+    padding: 1px 7px 3px 7px; }
+  #login .nav li.nav-item-top button:hover {
+    background-color: #cecece; }
+#login .nav li.nav-item-top:last-child {
   width: inherit; }
 
-.login .nav li.nav-item-top:first-child, .login .nav li.nav-item-top:nth-child(2) {
+#login .nav li.nav-item-top:first-child, #login .nav li.nav-item-top:nth-child(2) {
   margin-left: 0; }
+#login .nav li.nav-item-top:first-child {
+  margin-top: 0; }
 
 /* Searchbar */
 .searchbar {

@@ -32,7 +32,7 @@
 
               <div class="top-nav-menu">
 
-                <div class="logged-out" style="display: none">
+                <div id="logged-out">
                   <ul class="nav">
 
                     <li class="nav-item-top">
@@ -40,7 +40,7 @@
                     </li>
 
                     <li class="nav-item-top">
-                      <a class="nav-link" id="login" href="#">LOGIN</a>
+                      <a class="nav-link" href="#" onclick="Go_to_login()">LOGIN</a>
                     </li>
 
                   </ul>
@@ -48,7 +48,7 @@
 
 
 
-                <div class="login" style="display: block">
+                <div id="login">
                   <ul class="nav">
 
                     <li class="nav-item-top">
@@ -64,14 +64,14 @@
                     </li>
 
                     <li class="nav-item-top">
-                      <button type="submit"><img src="images/pijltje-login.png" alt="login-icon"></button>
+                      <button type="submit" onclick="Login()"><img src="images/pijltje-login.png" alt="login-icon"></button>
                     </li>
 
                   </ul>
                 </div>
 
 
-                <div class="logged-in" style="display: none">
+                <div id="logged-in">
                   <ul class="nav">
                           <li class="nav-item-top">
                             <img id="watchlist" class="float" src="images/transparant.png">
@@ -84,7 +84,7 @@
                           </li>
 
                           <li class="nav-item-top">
-                            <a class="nav-link" href="#">LOGOUT</a>
+                            <a class="nav-link" onclick="Logout()" href="#">LOGOUT</a>
                           </li>
                   </ul>
                 </div>
@@ -493,10 +493,10 @@
 
 
     <!-- Bootstrap gebruikt jquery en popper -->
+    <script type="text/javascript" src="js/script.js"></script>
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
-    <script type="text/javascript" src="js/script.js"></script>
 
   </body>
 
