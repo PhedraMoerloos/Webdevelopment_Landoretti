@@ -106,6 +106,75 @@ $font-medium-large: 0.9em;
 
 
 
+/* Nav not logged in */
+.logged-out .nav {
+
+  li.nav-item-top {
+    width: 90px;
+
+    a {
+      padding-left: 45%;
+    }
+
+  }
+
+  li.nav-item-top:first-child {
+    a {
+      padding-left: 0;
+    }
+  }
+
+}
+
+
+/* Nav login */
+.login .nav {
+
+  li.nav-item-top {
+    width: 90px;
+    margin-left: 4.5%;
+    border: none;
+
+    input {
+      font-style: italic;
+      padding-left: 3px;
+      width: 100%;
+      background-color: #f8f8f8;
+      border: 1px solid #e5e5e5;
+    }
+
+    a {
+      padding-left: 0;
+    }
+
+    button {
+      border-style: none;
+      padding: 0;
+    }
+
+  }
+
+
+  li.nav-item-top:last-child {
+    width: inherit;
+  }
+
+}
+
+
+.login .nav {
+
+  li.nav-item-top:first-child, li.nav-item-top:nth-child(2) {
+    margin-left: 0;
+  }
+
+}
+
+
+
+
+
+
 
 /* Searchbar */
 

@@ -32,21 +32,64 @@
 
               <div class="top-nav-menu">
 
+                <div class="logged-out" style="display: none">
                   <ul class="nav">
-                      <li class="nav-item-top">
-                        <img id="watchlist" class="float" src="images/transparant.png">
-                        <a class="nav-link navbar-left" href="#">WATCHLIST</a>
-                      </li>
 
-                      <li class="nav-item-top nav-top-middle">
-                        <img id="profile" class="float" src="images/transparant.png">
-                        <a class="nav-link nav-top-middle-text" href="#">PROFILE</a>
-                      </li>
+                    <li class="nav-item-top">
+                      <a class="nav-link" href="register.html">REGISTER</a>
+                    </li>
 
-                      <li class="nav-item-top">
-                        <a class="nav-link" href="#">LOGOUT</a>
-                      </li>
+                    <li class="nav-item-top">
+                      <a class="nav-link" id="login" href="#">LOGIN</a>
+                    </li>
+
                   </ul>
+                </div>
+
+
+
+                <div class="login" style="display: block">
+                  <ul class="nav">
+
+                    <li class="nav-item-top">
+                      <a class="nav-link" href="register.html">REGISTER</a>
+                    </li>
+
+                    <li class="nav-item-top">
+                      <input type="text" placeholder="User" name="user">
+                    </li>
+
+                    <li class="nav-item-top">
+                      <input type="text" placeholder="Password" name="password">
+                    </li>
+
+                    <li class="nav-item-top">
+                      <button type="submit"><img src="images/pijltje-login.png" alt="login-icon"></button>
+                    </li>
+
+                  </ul>
+                </div>
+
+
+                <div class="logged-in" style="display: none">
+                  <ul class="nav">
+                          <li class="nav-item-top">
+                            <img id="watchlist" class="float" src="images/transparant.png">
+                            <a class="nav-link navbar-left" href="#">WATCHLIST</a>
+                          </li>
+
+                          <li class="nav-item-top nav-top-middle">
+                            <img id="profile" class="float" src="images/transparant.png">
+                            <a class="nav-link nav-top-middle-text" href="#">PROFILE</a>
+                          </li>
+
+                          <li class="nav-item-top">
+                            <a class="nav-link" href="#">LOGOUT</a>
+                          </li>
+                  </ul>
+                </div>
+
+
 
               </div>
 
@@ -453,7 +496,7 @@
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
-    <script type="text/javascript" src="js/mdb.min.js"></script>
+    <script type="text/javascript" src="js/script.js"></script>
 
   </body>
 
