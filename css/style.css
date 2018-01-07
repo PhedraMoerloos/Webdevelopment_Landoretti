@@ -446,6 +446,45 @@ p.footer-title {
   width: 66%;
   float: right; }
 
+.content-faq {
+  padding-top: 25px;
+  padding-bottom: 50px; }
+  .content-faq .breadcrumbs {
+    font-size: 0.72em; }
+  .content-faq h1 {
+    font-weight: 300;
+    margin-top: 25px; }
+  .content-faq .row {
+    margin-right: 0;
+    margin-left: 0; }
+
+.faq-links {
+  padding: 1.5em;
+  border: 1px solid #e5e5e5;
+  margin-top: 35px; }
+  .faq-links .col p {
+    margin-bottom: 0; }
+    .faq-links .col p a {
+      font-weight: bold;
+      font-size: 0.9em;
+      text-decoration: underline; }
+  .faq-links .col p:last-child {
+    margin-bottom: 0; }
+
+.search-faq {
+  float: right;
+  padding: 0.75em 0.5em 0.75em 1.5em;
+  background-color: #f5f5f5;
+  border: 1px solid #e5e5e5;
+  border-top: none; }
+  .search-faq p {
+    margin-bottom: 0;
+    color: #06137b;
+    font-weight: 700;
+    font-size: 0.8em; }
+  .search-faq img {
+    margin-left: 12px; }
+
 body {
   font-family: "Open Sans", sans-serif;
   border-top: 4px solid #01a7a7;
@@ -454,7 +493,7 @@ body {
   font-size: 16px; }
 
 a, a:hover, a:active, a:focus {
-  color: #00ada7; }
+  color: #01a6a0; }
 
 .container {
   width: 70%; }
