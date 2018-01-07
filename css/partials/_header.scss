@@ -5,7 +5,9 @@ $secondary-color-light: #fff;
 $hover-color: #0c20c5;
 $hover-color-nav: #1a1919;
 $font-small: 0.72em;
+$font-medium-small: 0.8em;
 $font-medium-large: 0.9em;
+
 
 
 /* Naviagtion Logo */
@@ -312,4 +314,73 @@ width: 12%;
 
     }
 
+}
+
+
+.header {
+  position: relative;
+}
+
+.header-image {
+  width: 100%;
+}
+
+.header-auction {
+  position: absolute;
+  width: 300px;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 15%;
+  background-color: rgba(2, 34, 172, 0.6);
+  color: $secondary-color-light;
+
+  p, h4 {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+  h4 {
+    padding-top: 1em;
+    padding-bottom: 0.55em;
+    margin-bottom: 15px;
+    border-bottom: 1px solid #6d7ec7;
+    font-size: 1.3rem;
+  }
+
+  p {
+    font-size: $font-medium-small;
+
+    span:first-child {
+      font-weight: bold;
+    }
+
+    span:nth-child(2) {
+      font-size: 1.2em;
+    }
+  }
+
+  p:last-child {
+    padding-bottom: 1.5em;
+    padding-top: 1.5em;
+    margin:0;
+    background-color: white;
+
+    a:last-child {
+      margin-left: 15px;
+
+    }
+  }
+
+  a {
+    font-size: 1.15rem;
+  }
+
+}
+
+.circle-icon-header {
+  position: absolute;
+  top: 8%;
+  left: 60.5%;
+  bottom: 0;
+  z-index: 1;
 }

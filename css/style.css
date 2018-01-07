@@ -159,6 +159,52 @@
       .languages p a:active, .languages p a:focus {
         font-weight: bold; }
 
+.header {
+  position: relative; }
+
+.header-image {
+  width: 100%; }
+
+.header-auction {
+  position: absolute;
+  width: 300px;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 15%;
+  background-color: rgba(2, 34, 172, 0.6);
+  color: #fff; }
+  .header-auction p, .header-auction h4 {
+    padding-left: 30px;
+    padding-right: 30px; }
+  .header-auction h4 {
+    padding-top: 1em;
+    padding-bottom: 0.55em;
+    margin-bottom: 15px;
+    border-bottom: 1px solid #6d7ec7;
+    font-size: 1.3rem; }
+  .header-auction p {
+    font-size: 0.8em; }
+    .header-auction p span:first-child {
+      font-weight: bold; }
+    .header-auction p span:nth-child(2) {
+      font-size: 1.2em; }
+  .header-auction p:last-child {
+    padding-bottom: 1.5em;
+    padding-top: 1.5em;
+    margin: 0;
+    background-color: white; }
+    .header-auction p:last-child a:last-child {
+      margin-left: 15px; }
+  .header-auction a {
+    font-size: 1.15rem; }
+
+.circle-icon-header {
+  position: absolute;
+  top: 8%;
+  left: 60.5%;
+  bottom: 0;
+  z-index: 1; }
+
 /*** ALGEMEEN ***/
 .container-footer {
   width: 100%;
@@ -280,20 +326,6 @@ p.footer-title {
 
   #google {
     margin-top: 5px; } }
-body {
-  font-family: "Open Sans", sans-serif;
-  border-top: 4px solid #01a7a7;
-  border-bottom: 4px solid #01a6a0;
-  color: #4f4f4f;
-  font-size: 16px; }
-
-a, a:hover, a:active, a:focus {
-  color: #00ada7; }
-
-.container {
-  width: 70%; }
-
-/************ HOME ***********/
 /*** SLIDER TOP ***/
 /*eigen controls*/
 .carousel-control-prev-icon, .carousel-control-next-icon {
@@ -414,6 +446,19 @@ a, a:hover, a:active, a:focus {
   width: 66%;
   float: right; }
 
+body {
+  font-family: "Open Sans", sans-serif;
+  border-top: 4px solid #01a7a7;
+  border-bottom: 4px solid #01a6a0;
+  color: #4f4f4f;
+  font-size: 16px; }
+
+a, a:hover, a:active, a:focus {
+  color: #00ada7; }
+
+.container {
+  width: 70%; }
+
 /***  positioning elements  ***/
 .display-inline, img.display-inline {
   display: inline-block; }
@@ -475,7 +520,10 @@ a, a:hover, a:active, a:focus {
     margin-left: 9.5%; }
 
   .top-nav-menu, .bottom-nav-menu {
-    margin-left: 9%; } }
+    margin-left: 9%; }
+
+  .header-auction {
+    right: 10.5%; } }
 @media screen and (max-width: 955px) {
   .circle-icon {
     bottom: 42%; } }
