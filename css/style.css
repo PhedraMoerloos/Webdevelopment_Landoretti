@@ -344,7 +344,8 @@ a, a:hover, a:active, a:focus {
   text-align: center;
   color: #06137b;
   margin: 1.3em auto 0 auto;
-  font-weight: 400; }
+  font-weight: 400;
+  font-size: 2rem; }
 
 .home-info-col, .container-mozaik {
   padding-top: 2.9em;
