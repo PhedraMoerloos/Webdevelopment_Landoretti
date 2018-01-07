@@ -448,8 +448,16 @@ a, a:hover, a:active, a:focus {
   .circle-icon {
     bottom: 42%; } }
 @media screen and (max-width: 1088px) {
-  .text-on-slider p {
-    font-size: 0.80em; } }
+  .text-on-slider {
+    padding: 25px; }
+    .text-on-slider p {
+      font-size: 0.80em; }
+
+  .circle-icon {
+    bottom: 36%; } }
+@media screen and (max-width: 1078px) {
+  .circle-icon {
+    bottom: 38%; } }
 @media screen and (max-width: 995px) {
   .container {
     width: 80%; }
@@ -462,7 +470,31 @@ a, a:hover, a:active, a:focus {
     margin-right: 10.5%; }
 
   .circle-icon {
-    bottom: 44%;
-    margin-left: 9.5%; } }
+    bottom: 39%;
+    margin-left: 9.5%; }
+
+  .top-nav-menu, .bottom-nav-menu {
+    margin-left: 9%; } }
+@media screen and (max-width: 955px) {
+  .circle-icon {
+    bottom: 42%; } }
+@media screen and (max-width: 905px) {
+  .circle-icon {
+    bottom: 45%; }
+
+  .bottom-nav {
+    font-size: 0.85em; } }
+@media screen and (max-width: 885px) {
+  .circle-icon {
+    bottom: 43%; }
+
+  .text-on-slider {
+    padding: 17px; } }
+@media screen and (max-width: 844px) {
+  .circle-icon, .text-on-slider {
+    display: none; }
+
+  .bottom-nav {
+    font-size: 0.8em; } }
 
 /*# sourceMappingURL=style.css.map */
