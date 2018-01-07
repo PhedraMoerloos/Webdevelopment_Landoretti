@@ -200,8 +200,8 @@
 
 .circle-icon-header {
   position: absolute;
-  top: 8%;
-  left: 60.5%;
+  top: 9.5%;
+  left: 61.3%;
   bottom: 0;
   z-index: 1; }
 
@@ -487,12 +487,32 @@ a, a:hover, a:active, a:focus {
   height: 100%; }
 
 /**  MEDIA QUERIES **/
+@media screen and (max-width: 1293px) {
+  .circle-icon-header {
+    left: 60%;
+    top: 8%; } }
+@media screen and (max-width: 1239px) {
+  .circle-icon-header {
+    left: 59.5%;
+    top: 5.5%; } }
 @media screen and (max-width: 1227px) {
   .circle-icon {
     bottom: 40%; } }
+@media screen and (max-width: 1199px) {
+  .circle-icon-header {
+    left: 58.5%;
+    top: 4%; } }
+@media screen and (max-width: 1156px) {
+  .circle-icon-header {
+    left: 57%;
+    top: 2%; } }
 @media screen and (max-width: 1147px) {
   .circle-icon {
     bottom: 42%; } }
+@media screen and (max-width: 1110px) {
+  .circle-icon-header {
+    left: 56%;
+    top: 1%; } }
 @media screen and (max-width: 1088px) {
   .text-on-slider {
     padding: 25px; }
@@ -501,6 +521,22 @@ a, a:hover, a:active, a:focus {
 
   .circle-icon {
     bottom: 36%; } }
+@media screen and (max-width: 1060px) {
+  .circle-icon-header {
+    left: 55%;
+    top: 0; } }
+@media screen and (max-width: 1030px) {
+  .header-auction p, .header-auction h4 {
+    padding-left: 20px;
+    padding-right: 20px; }
+  .header-auction h4 {
+    font-size: 1.1rem; }
+  .header-auction p {
+    font-size: 0.72em; }
+    .header-auction p span:nth-child(2) {
+      font-size: 1em; }
+  .header-auction a {
+    font-size: 1rem; } }
 @media screen and (max-width: 1078px) {
   .circle-icon {
     bottom: 38%; } }
