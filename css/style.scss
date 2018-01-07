@@ -316,3 +316,25 @@ text-align: center;
     font-size: 0.80em;
   }
 }
+
+
+@media screen and (max-width: 995px) {
+  .container {
+    width: 80%;
+  }
+
+  .logo-top {
+    margin-left: 12%;
+  }
+
+  .text-on-slider {
+    margin-left: 12%;
+    margin-right: 10.5%;
+  }
+
+
+  .circle-icon {
+    bottom: 44%;
+    margin-left:9.5%;
+  }
+}
