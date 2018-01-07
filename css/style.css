@@ -379,10 +379,6 @@ a, a:hover, a:active, a:focus {
       background: url("../images/carousel-pijltjes.png");
       margin-bottom: 0.7em; }
 
-/* voorlopig, is beter in js */
-.more-arrow-link:active #more-arrow, .more-arrow-link:focus #more-arrow {
-  background: url("../images/carousel-pijltjes.png") 27px 0; }
-
 /*** Mosaic images ***/
 .mozaik {
   margin-bottom: 2.7em; }
