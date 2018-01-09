@@ -14,8 +14,8 @@
 
 
     <meta charset="utf-8">
-    <title>Landoretti Art: Buy or sell your amazing art!</title>
-    <meta name="description" content="At Landoretti Art, you can search for the most amazing art and make a bid. Or sell you art to the highest bidder. We have a wide variate of art available in all shapes and sizes.">
+    <title>I search in Landoretti Art</title>
+    <meta name="description" content="Not sure which artist made that artwork? Or the name of an artwork from your favorite artist? Look it up here and even discover new things about the artist or artwork you're looking for.">
     <!-- Voor responsiveness, Bootstrap is mobile first -->
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
@@ -163,133 +163,217 @@
 
 
 
+      <div class="header">
 
-      <!-- CONTENT -->
+        <img class="header-image" src="images/record-player-small.jpg" alt="record-player">
 
-      <div id="SliderHome" class="carousel slide" data-ride="carousel">
-
-          <!-- indicators onderaan slider -->
-          <ol class="carousel-indicators">
-              <li data-target="#SliderHome" data-slide-to="0" class="active"></li>
-              <li data-target="#SliderHome" data-slide-to="1"></li>
-              <li data-target="#SliderHome" data-slide-to="2"></li>
-          </ol>
-
-          <!-- images slider -->
-          <div class="carousel-inner" role="listbox">
-
-              <div class="carousel-item active">
-                  <img class="d-block img-fluid" src="images/slider/art-gallery.jpg" alt="Slider image of art gallery">
-              </div>
-
-              <div class="carousel-item">
-                  <img class="d-block img-fluid" src="images/slider/vintage-camera.jpg" alt="Slider image of vintage camera">
-              </div>
-
-              <div class="carousel-item">
-                  <img class="d-block img-fluid" src="images/slider/record-player.jpg" alt="Slider image of of record player">
-              </div>
-
-          </div>
-
-          <!-- controls slider -->
-          <a class="carousel-control-prev" href="#SliderHome" role="button" data-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="sr-only">Previous</span>
-          </a>
-
-          <a class="carousel-control-next" href="#SliderHome" role="button" data-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="sr-only">Next</span>
-          </a>
-
-
-          <img class="circle-icon" src="images/slider-bol-icon.png" alt="circle icon">
-          <div class="text-on-slider">
-            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a.</p>
-          </div>
-
-      </div><!-- end carousel slider top -->
-
-
-
-
-      <div class="container">
-
-          <h1 class="home-info-title">How does it work?</h1>
-
-          <div class="row">
-              <div class="col-lg-4 home-info-col">
-                <img src="images/info-button-pencil.png" alt="Generic placeholder image">
-                <h4>Sign up</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt.</p>
-              </div>
-
-              <div class="col-lg-4 home-info-col">
-                <img src="images/info-button-vinkje.png" alt="Generic placeholder image">
-                <h4>Make deals</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt.</p>
-              </div>
-
-              <div class="col-lg-4 home-info-col">
-                <img src="images/info-button-smiley.png" alt="Generic placeholder image">
-                <h4>Everyone happy!</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt.</p>
-              </div>
-          </div><!-- einde .row -->
+        <div class="header-auction">
+            <h4>Lorem ipsum</h4>
+            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. magnis dis parturient montes, nascetur ridiculus mus...</p>
+            <p><span>Price:</span> <span>€ 299,99</span></p>
+            <p>
+              <a href="#">VISIT AUCTION</a>
+              <a href="#"><img class="display-inline" src="images/pijltje-visit-auction.png" alt="arrow right"></a>
+            </p>
+        </div>
+        <img class="circle-icon-header" src="images/slider-bol-icon-cropped.png" alt="circle icon">
 
       </div>
 
 
-      <div class="container-mozaik">
-        <div class="container padding-0">
 
 
-            <div class="home-mozaik-title">
-              <h2 class="display-inline">Most popular this week</h2>
-              <a href="#" onclick="Popular_switch()" class="more-arrow-link"><img id="more-arrow" class="display-inline" src="images/transparant.png" alt="arrow"></a>
+      <!-- CONTENT -->
+
+      <div class="container padding-0 content-page">
+
+        <p class="breadcrumbs"><a href="home.html">Home</a> > <a href="#">I Search</a></p>
+
+        <h1>I search</h1>
+
+
+        <h4>Add a request:</h4>
+
+
+        <form class="form-search" action="search.html" method="post">
+
+          <div class="row">
+            <div class="col">
+              <label>What are you looking for?</label>
+              <input type="text" placeholder="Mona Lisa" name="artwork" required>
             </div>
 
+            <div class="col">
+              <label>Artist</label>
+              <input type="text" placeholder="Leonardo Da Vinci" name="artist" required>
+            </div>
+          </div>
 
 
-            <div class="mozaik clearfix">
+          <div class="row">
+            <div class="col col-lg-9">
+              <label>Information about the artwork</label>
+            </div>
+          </div>
 
-                <div class="mozaik-image">
-                    <div class="position">
-                        <img src="images/ring-mozaik.jpg" class="img-fluid" alt="magnifying glass on paper with post stamps">
-                        <div class="overlay flex-center">
-                            <a href="#"><img src="images/searchicon-groot.png" alt="See artwork"></a>
-                        </div>
-                    </div>
-                </div>
+          <div class="row">
+            <div class="col col-lg-9">
+              <input type="text" placeholder="Lorem ipsum, dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore" name="info-art" required>
+            </div>
 
-
-
-                <div class="mozaik-image mozaik-item-width2">
-                    <div class="position">
-                        <img src="images/klok-mozaik.jpg" class="img-fluid" alt="Dahli's melted clock">
-                        <div class="overlay flex-center">
-                            <a href="#"><img src="images/searchicon-groot.png" alt="See artwork"></a>
-                        </div>
-                    </div>
-                </div>
+            <div class="col">
+              <button type="submit" name="submit">ADMIT REQUEST</button>
+            </div>
+          </div>
 
 
+          <div class="row">
+            <div class="col col-lg-9">
+              <p>Your request must be approved by the administrator. If your question has been approved, it will appear on our site.</p>
+            </div>
+          </div>
 
-                <div class="mozaik-image">
-                    <div class="position">
-                        <img src="images/vrouw-mozaik.jpg" class="img-fluid " alt="Painting of woman">
-                        <div class="overlay flex-center">
-                            <a href="#"><img src="images/searchicon-groot.png" alt="See artwork"></a>
-                        </div>
-                    </div>
-                </div>
 
-            </div><!-- einde mozaik -->
+          </form>
 
+
+
+
+
+
+
+        <div class="row frame">
+
+          <div class="col">
+            <p><a href="#">How to bid?</a></p>
+            <p><a href="#">How to sell?</a></p>
+          </div>
+
+          <div class="col">
+            <p><a href="#">How to buy?</a></p>
+            <p><a href="#">How to register?</a></p>
+          </div>
+
+          <div class="col">
+            <p><a href="#">How to ask a question?</a></p>
+            <p><a href="#">What is a watchlist?</a></p>
+          </div>
+
+          <div class="col">
+            <p><a href="#">How to use a watchlist?</a></p>
+          </div>
 
         </div>
-      </div><!-- einde container mozaik -->
+
+
+        <div class="clearfix">
+          <div class="search-faq">
+
+            <p class="display-inline"><a href="search.html">l SEARCH</a></p>
+            <img class="display-inline" src="images/pijltje-search-faq.png" alt="arrow-right">
+
+          </div>
+        </div>
+
+
+
+        <div class="questions-faq">
+
+          <div class="question">
+            <div class="row">
+              <p class="display-inline">Q</p>
+              <p class="display-inline">How to bid?</p>
+            </div>
+
+            <div class="row">
+              <p class="display-inline">A</p>
+              <p class="display-inline">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis <span>ostrud exercitation</span> ullamco laboris nisi ut aliquip ex ea <a href="#">commodo consequat</a>. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident</p>
+            </div>
+          </div>
+
+
+          <div class="question">
+            <div class="row">
+              <p class="display-inline">Q</p>
+              <p class="display-inline">How to sell?</p>
+            </div>
+
+            <div class="row">
+              <p class="display-inline">A</p>
+              <p class="display-inline">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis <span>ostrud exercitation</span> ullamco laboris nisi ut aliquip ex ea <a href="#">commodo consequat</a>. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident</p>
+            </div>
+          </div>
+
+
+          <div class="question">
+            <div class="row">
+              <p class="display-inline">Q</p>
+              <p class="display-inline">How to buy?</p>
+            </div>
+
+            <div class="row">
+              <p class="display-inline">A</p>
+              <p class="display-inline">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis <span>ostrud exercitation</span> ullamco laboris nisi ut aliquip ex ea <a href="#">commodo consequat</a>. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident</p>
+            </div>
+          </div>
+
+
+          <div class="question">
+            <div class="row">
+              <p class="display-inline">Q</p>
+              <p class="display-inline">How to register?</p>
+            </div>
+
+            <div class="row">
+              <p class="display-inline">A</p>
+              <p class="display-inline">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis <span>ostrud exercitation</span> ullamco laboris nisi ut aliquip ex ea <a href="#">commodo consequat</a>. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident</p>
+            </div>
+          </div>
+
+
+          <div class="question">
+            <div class="row">
+              <p class="display-inline">Q</p>
+              <p class="display-inline">How to ask a question?</p>
+            </div>
+
+            <div class="row">
+              <p class="display-inline">A</p>
+              <p class="display-inline">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis <span>ostrud exercitation</span> ullamco laboris nisi ut aliquip ex ea <a href="#">commodo consequat</a>. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident</p>
+            </div>
+          </div>
+
+
+          <div class="question">
+            <div class="row">
+              <p class="display-inline">Q</p>
+              <p class="display-inline">What is a watchlist?</p>
+            </div>
+
+            <div class="row">
+              <p class="display-inline">A</p>
+              <p class="display-inline">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis <span>ostrud exercitation</span> ullamco laboris nisi ut aliquip ex ea <a href="#">commodo consequat</a>. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident</p>
+            </div>
+          </div>
+
+
+          <div class="question">
+            <div class="row">
+              <p class="display-inline">Q</p>
+              <p class="display-inline">How to use a watchlist?</p>
+            </div>
+
+            <div class="row">
+              <p class="display-inline">A</p>
+              <p class="display-inline">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis <span>ostrud exercitation</span> ullamco laboris nisi ut aliquip ex ea <a href="#">commodo consequat</a>. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident</p>
+            </div>
+          </div>
+
+
+        </div><!-- end container content -->
+
+
+      </div>
 
 
 
@@ -314,7 +398,7 @@
                 <p class="footer-title">HELP</p>
                 <p><a href="#">Terms of Service</a></p>
                 <p><a href="#">Privacy Policy</a></p>
-                <p><a href="faq.html">FAQ</a></p>
+                <p><a href="#">FAQ</a></p>
                 <p><a href="#">Contact Us</a></p>
                 <p><a href="#">About Us</a></p>
               </div>

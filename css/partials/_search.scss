@@ -1,0 +1,21 @@
+form.form-search {
+  .row:nth-child(2) {
+    .col {
+      margin-bottom: 0;
+    }
+  }
+
+  .row:nth-child(3) {
+    .col {
+      margin-bottom: 15px;
+    }
+  }
+
+  .row:last-child {
+    p {
+      font-size: $font-medium-small;
+      color: #8e8d8d;
+    }
+  }
+
+}

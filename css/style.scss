@@ -2,6 +2,7 @@
 @import "partials/footer";
 @import "partials/home";
 @import "partials/faq";
+@import "partials/search";
 
 $font:'Open Sans', sans-serif;
 $container-width: 70%;
@@ -17,8 +18,6 @@ $font-medium-large: 0.9em;
 
 
 
-
-
 body {
     font-family: $font;
     border-top: 4px solid #01a7a7;
@@ -27,13 +26,89 @@ body {
     font-size: 16px;
 }
 
+
+
 a, a:hover, a:active, a:focus {
   color: $link-color;
 }
 
 
+
 .container {
     width: $container-width;
+}
+
+
+
+.content-page {
+  padding-top: 25px;
+  padding-bottom: 50px;
+
+  .breadcrumbs {
+    font-size: $font-small;
+  }
+
+  h1 {
+    font-weight: 300;
+    margin-top: 25px;
+    margin-bottom: 35px;
+  }
+
+
+  h4 {
+    font-weight: 300;
+    margin-bottom: 15px;
+  }
+
+
+  form {
+    margin-bottom: 25px;
+
+    label {
+      color: $primary-color;
+      font-weight: 600;
+      display: block;
+    }
+
+    input {
+      padding: 10px 20px;
+      width: 100%;
+      background-color: #f8f8f8;
+      border: 1px solid #e5e5e5;
+    }
+
+    ::placeholder {
+      font-size: $font-medium-large;
+    }
+
+    .col {
+      margin-bottom: 30px;
+      margin-left: 15px;
+      margin-right: 15px;
+    }
+
+    .col:first-child {
+      margin-left: 0px;
+    }
+
+    .col:last-child {
+      margin-right: 0px;
+    }
+
+    button {
+      background-color: #757575;
+    }
+  }
+
+}
+
+
+.frame {
+  padding: 1.7em;
+  border: 1px solid #e5e5e5;
+  margin-left: 0;
+  margin-right: 0;
+
 }
 
 
