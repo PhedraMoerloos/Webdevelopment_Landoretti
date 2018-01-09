@@ -65,20 +65,26 @@ form.form-search {
 
   .frame {
     padding: 1em 0.5em 1em 2.5em;
+    border-bottom: none;
+
 
     .col {
       padding-right: 0;
       padding-left: 0;
     }
 
+
     .col-lg-10 {
       max-width: 78%;
     }
 
+
     .col:last-child {
       padding-left: 0;
       margin-left: 3%;
+      padding-top: 1%;
     }
+
 
     p {
       font-size: $font-medium-large;
@@ -90,11 +96,13 @@ form.form-search {
       }
     }
 
+
     button {
       background-color: #f8f8f8;
       border: 1px solid #e5e5e5;
       padding: 10px;
       width: 100%;
+      vertical-align: middle;
 
       p {
         font-size: $font-small;
@@ -106,11 +114,25 @@ form.form-search {
       a {
         margin-left: 7px;
       }
+
+
+      &:hover, :focus {
+        background-color: #e1e1e1;
+        border: 1px solid #e1e1e1;
+      }
     }
 
+
+    &:hover, :focus {
+      background-color: #f8f8f8;
+    }
+
+  }/*einde frame*/
+
+
+  .frame:last-child {
+    border-bottom: 1px solid #e5e5e5;
   }
 
 
-
-
-}
+}/* einde search overview */

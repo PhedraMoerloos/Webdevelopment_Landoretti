@@ -541,35 +541,48 @@ form.form-search .row:last-child p {
     .pages a.active:hover, .pages a.active:focus {
       text-decoration: none; }
 
-.search-overview .frame {
-  padding: 1em 0.5em 1em 2.5em; }
-  .search-overview .frame .col {
-    padding-right: 0;
-    padding-left: 0; }
-  .search-overview .frame .col-lg-10 {
-    max-width: 78%; }
-  .search-overview .frame .col:last-child {
-    padding-left: 0;
-    margin-left: 3%; }
-  .search-overview .frame p {
-    font-size: 0.9em;
-    color: #5c5c5c;
-    margin-bottom: 0; }
-    .search-overview .frame p span {
-      font-weight: bold; }
-  .search-overview .frame button {
-    background-color: #f8f8f8;
-    border: 1px solid #e5e5e5;
-    padding: 10px;
-    width: 100%; }
-    .search-overview .frame button p {
-      font-size: 0.72em;
-      color: #06137b;
-      font-weight: 800;
+.search-overview {
+  /*einde frame*/ }
+  .search-overview .frame {
+    padding: 1em 0.5em 1em 2.5em;
+    border-bottom: none; }
+    .search-overview .frame .col {
+      padding-right: 0;
+      padding-left: 0; }
+    .search-overview .frame .col-lg-10 {
+      max-width: 78%; }
+    .search-overview .frame .col:last-child {
+      padding-left: 0;
+      margin-left: 3%;
+      padding-top: 1%; }
+    .search-overview .frame p {
+      font-size: 0.9em;
+      color: #5c5c5c;
       margin-bottom: 0; }
-    .search-overview .frame button a {
-      margin-left: 7px; }
+      .search-overview .frame p span {
+        font-weight: bold; }
+    .search-overview .frame button {
+      background-color: #f8f8f8;
+      border: 1px solid #e5e5e5;
+      padding: 10px;
+      width: 100%;
+      vertical-align: middle; }
+      .search-overview .frame button p {
+        font-size: 0.72em;
+        color: #06137b;
+        font-weight: 800;
+        margin-bottom: 0; }
+      .search-overview .frame button a {
+        margin-left: 7px; }
+      .search-overview .frame button:hover, .search-overview .frame button :focus {
+        background-color: #e1e1e1;
+        border: 1px solid #e1e1e1; }
+    .search-overview .frame:hover, .search-overview .frame :focus {
+      background-color: #f8f8f8; }
+  .search-overview .frame:last-child {
+    border-bottom: 1px solid #e5e5e5; }
 
+/* einde search overview */
 body {
   font-family: "Open Sans", sans-serif;
   border-top: 4px solid #01a7a7;
