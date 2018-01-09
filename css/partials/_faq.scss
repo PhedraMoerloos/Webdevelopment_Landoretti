@@ -1,26 +1,5 @@
-.content-page {
-  padding-top: 25px;
-  padding-bottom: 50px;
-
-  .breadcrumbs {
-    font-size: $font-small;
-  }
-
-  h1 {
-    font-weight: 300;
-    margin-top: 25px;
-    margin-bottom: 35px;
-  }
-
-}
-
-
-.frame {
-  padding: 1.7em;
-  border: 1px solid #e5e5e5;
-  margin-left: 0;
-  margin-right: 0;
-
+.frame-faq-links {
+    padding: 1.7em;
 }
 
 
@@ -51,6 +30,10 @@
   border: 1px solid #e5e5e5;
   border-top: none;
 
+  &:hover {
+    background-color: #e8e8e8;
+  }
+
   p {
     margin-bottom: 0;
 
@@ -58,6 +41,10 @@
     color: $primary-color;
     font-weight: 700;
     font-size: $font-medium-small;
+
+    &:hover {
+      text-decoration: none;
+    }
     }
   }
 
@@ -70,7 +57,6 @@
 
 .questions-faq {
   margin-top: 20px;
-  margin-bottom: 20px;
 
 }
 .question {
@@ -125,5 +111,6 @@
 
 .question:last-child {
     border:none;
+    padding-bottom: 0;
 
 }

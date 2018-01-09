@@ -41,8 +41,8 @@ a, a:hover, a:active, a:focus {
 
 
 .content-page {
-  padding-top: 25px;
-  padding-bottom: 50px;
+  margin-top: 25px;
+  margin-bottom: 90px;
 
   .breadcrumbs {
     font-size: $font-small;
@@ -104,6 +104,11 @@ a, a:hover, a:active, a:focus {
       font-weight: 600;
       font-size: $font-medium-large;
       border: 2px solid #757575;
+
+      &:hover, &:focus {
+        background-color: #606060;
+        border: 2px solid #606060;
+      }
     }
   }
 
@@ -111,7 +116,6 @@ a, a:hover, a:active, a:focus {
 
 
 .frame {
-  padding: 1.7em;
   border: 1px solid #e5e5e5;
   margin-left: 0;
   margin-right: 0;

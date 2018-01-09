@@ -22,6 +22,8 @@ form.form-search {
 
 
 .pages {
+  text-align: right;
+
   a {
     font-size: $font-medium-small;
     color: $secondary-color-dark;
@@ -48,10 +50,67 @@ form.form-search {
   a.active {
     font-weight: bold;
     color: black;
-  
+
     &:hover, &:focus {
       text-decoration: none;
     }
 
   }
+}
+
+
+
+
+.search-overview {
+
+  .frame {
+    padding: 1em 0.5em 1em 2.5em;
+
+    .col {
+      padding-right: 0;
+      padding-left: 0;
+    }
+
+    .col-lg-10 {
+      max-width: 78%;
+    }
+
+    .col:last-child {
+      padding-left: 0;
+      margin-left: 3%;
+    }
+
+    p {
+      font-size: $font-medium-large;
+      color: #5c5c5c;
+      margin-bottom: 0;
+
+      span {
+        font-weight: bold;
+      }
+    }
+
+    button {
+      background-color: #f8f8f8;
+      border: 1px solid #e5e5e5;
+      padding: 10px;
+      width: 100%;
+
+      p {
+        font-size: $font-small;
+        color: $primary-color;
+        font-weight: 800;
+        margin-bottom: 0;
+      }
+
+      a {
+        margin-left: 7px;
+      }
+    }
+
+  }
+
+
+
+
 }
