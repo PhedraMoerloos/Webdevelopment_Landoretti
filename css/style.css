@@ -559,10 +559,11 @@ a, a:hover, a:active, a:focus {
       font-weight: 600;
       display: block; }
     .content-page form input {
-      padding: 10px 20px;
-      width: 100%;
       background-color: #f8f8f8;
       border: 1px solid #e5e5e5; }
+    .content-page form input, .content-page form button {
+      padding: 10px 20px;
+      width: 100%; }
     .content-page form ::placeholder {
       font-size: 0.9em; }
     .content-page form .col {
@@ -574,7 +575,11 @@ a, a:hover, a:active, a:focus {
     .content-page form .col:last-child {
       margin-right: 0px; }
     .content-page form button {
-      background-color: #757575; }
+      background-color: #757575;
+      color: white;
+      font-weight: 600;
+      font-size: 0.9em;
+      border: 2px solid #757575; }
 
 .frame {
   padding: 1.7em;
