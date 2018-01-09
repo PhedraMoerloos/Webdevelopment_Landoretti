@@ -527,6 +527,27 @@ form.form-search .row:last-child p {
   font-size: 0.8em;
   color: #8e8d8d; }
 
+.pages a {
+  font-size: 0.8em;
+  color: #4f4f4f;
+  text-decoration: none;
+  margin-left: 3px;
+  margin-right: 3px; }
+  .pages a:hover, .pages a:focus {
+    text-decoration: underline;
+    color: #4f4f4f; }
+.pages a:first-child {
+  margin-left: 0;
+  margin-right: 10px; }
+.pages a:last-child {
+  margin-right: 0;
+  margin-left: 10px; }
+.pages a.active {
+  font-weight: bold;
+  color: black; }
+  .pages a.active:hover, .pages a.active:focus {
+    text-decoration: none; }
+
 body {
   font-family: "Open Sans", sans-serif;
   border-top: 4px solid #01a7a7;

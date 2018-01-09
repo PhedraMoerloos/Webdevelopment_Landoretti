@@ -19,3 +19,39 @@ form.form-search {
   }
 
 }
+
+
+.pages {
+  a {
+    font-size: $font-medium-small;
+    color: $secondary-color-dark;
+    text-decoration: none;
+    margin-left: 3px;
+    margin-right: 3px;
+
+    &:hover, &:focus {
+      text-decoration: underline;
+      color: $secondary-color-dark;
+    }
+  }
+
+  a:first-child {
+    margin-left: 0;
+    margin-right: 10px;
+  }
+
+  a:last-child {
+    margin-right: 0;
+    margin-left: 10px;
+  }
+
+  a.active {
+    font-weight: bold;
+    color: black;
+  
+    &:hover, &:focus {
+      text-decoration: none;
+    }
+
+  }
+}
