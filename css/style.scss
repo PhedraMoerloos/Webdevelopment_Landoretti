@@ -73,6 +73,7 @@ a, a:hover, a:active, a:focus {
     input {
       background-color: #f8f8f8;
       border: 1px solid #e5e5e5;
+      border-radius: 0;
     }
 
     input, button {
@@ -110,9 +111,21 @@ a, a:hover, a:active, a:focus {
         border: 2px solid #606060;
       }
     }
-  }
+  }/* end form */
 
+} /* end content page*/
+
+
+.was-validated .form-control:invalid {
+    border-color: #fa0002;
+    background-color: #fff1f1;
 }
+
+.was-validated .form-control:valid {
+    border-color: none;
+}
+
+
 
 
 .frame {

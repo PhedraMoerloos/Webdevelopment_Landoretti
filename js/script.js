@@ -20,3 +20,20 @@ function Logout() {
 function Popular_switch() {
   document.getElementById("more-arrow").style.background = "url('images/carousel-pijltjes.png') 27px 0px";
 }
+
+
+
+(function() {
+  'use strict';
+
+  window.addEventListener('load', function() {
+    var form = document.getElementById('needs-validation');
+    form.addEventListener('submit', function(event) {
+      if (form.checkValidity() === false) {
+        event.preventDefault();
+        event.stopPropagation();
+      }
+      form.classList.add('was-validated');
+    }, false);
+  }, false);
+})();

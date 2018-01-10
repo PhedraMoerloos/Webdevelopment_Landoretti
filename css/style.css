@@ -598,7 +598,8 @@ a, a:hover, a:active, a:focus {
 
 .content-page {
   margin-top: 25px;
-  margin-bottom: 90px; }
+  margin-bottom: 90px;
+  /* end form */ }
   .content-page .breadcrumbs {
     font-size: 0.72em; }
   .content-page h1 {
@@ -616,7 +617,8 @@ a, a:hover, a:active, a:focus {
       display: block; }
     .content-page form input {
       background-color: #f8f8f8;
-      border: 1px solid #e5e5e5; }
+      border: 1px solid #e5e5e5;
+      border-radius: 0; }
     .content-page form input, .content-page form button {
       padding: 10px 20px;
       width: 100%; }
@@ -639,6 +641,14 @@ a, a:hover, a:active, a:focus {
       .content-page form button:hover, .content-page form button:focus {
         background-color: #606060;
         border: 2px solid #606060; }
+
+/* end content page*/
+.was-validated .form-control:invalid {
+  border-color: #fa0002;
+  background-color: #fff1f1; }
+
+.was-validated .form-control:valid {
+  border-color: none; }
 
 .frame {
   border: 1px solid #e5e5e5;
