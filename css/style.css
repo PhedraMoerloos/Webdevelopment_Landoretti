@@ -648,7 +648,14 @@ a, a:hover, a:active, a:focus {
   background-color: #fff1f1; }
 
 .was-validated .form-control:valid {
-  border-color: none; }
+  background: url("../images/vinkje.svg") no-repeat scroll 19px 14px;
+  background-position: 98% 50%;
+  background-color: #f8f8f8;
+  border: 1px solid #e5e5e5;
+  -webkit-transition: none; }
+
+.was-validated textarea.form-control:valid {
+  background-position: 98% 90%; }
 
 .frame {
   border: 1px solid #e5e5e5;
