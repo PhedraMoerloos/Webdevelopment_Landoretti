@@ -5,6 +5,10 @@
     margin-top: 30px;
   }
 
+  .row:first-child .col {
+    max-width: 48%;
+  }
+
 }
 
 

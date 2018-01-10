@@ -587,6 +587,8 @@ form.form-search .row:last-child p {
   width: 80%; }
   .form-add-auction .row:last-child {
     margin-top: 30px; }
+  .form-add-auction .row:first-child .col {
+    max-width: 48%; }
 
 .buttons-photos .col:last-child button {
   height: 100%; }
@@ -651,9 +653,24 @@ a, a:hover, a:active, a:focus {
       background-color: #f8f8f8;
       border: 1px solid #e5e5e5;
       border-radius: 0; }
-    .content-page form input, .content-page form button, .content-page form textarea {
+    .content-page form input, .content-page form button, .content-page form textarea, .content-page form select {
       padding: 10px 20px;
       width: 100%; }
+    .content-page form select {
+      border: 1px solid #e5e5e5;
+      border-radius: 0;
+      background: url("../images/pijltje-down.png") no-repeat scroll;
+      background-position: 95% 50%;
+      background-color: #e5e5e5;
+      -webkit-appearance: none; }
+      .content-page form select:focus {
+        background-color: #e5e5e5;
+        border-color: #e5e5e5;
+        box-shadow: none; }
+      .content-page form select option {
+        background-color: #fafafa; }
+    .content-page form select.form-control:not([size]):not([multiple]) {
+      height: calc(2.7rem + 2px); }
     .content-page form input[type="checkbox"] {
       width: inherit;
       margin-left: 0; }
@@ -691,7 +708,7 @@ a, a:hover, a:active, a:focus {
   background-color: #fff1f1; }
 
 .was-validated .form-control:valid {
-  background: url("../images/vinkje.svg") no-repeat scroll 19px 14px;
+  background: url("../images/vinkje.svg") no-repeat scroll;
   background-position: 97% 50%;
   background-color: #f8f8f8;
   border: 1px solid #e5e5e5;

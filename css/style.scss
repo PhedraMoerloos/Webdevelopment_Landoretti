@@ -82,10 +82,35 @@ a, a:hover, a:active, a:focus {
       border-radius: 0;
     }
 
-    input, button, textarea {
+    input, button, textarea, select {
       padding: 10px 20px;
       width: 100%;
     }
+
+    select {
+      border: 1px solid #e5e5e5;
+      border-radius: 0;
+      background: url("../images/pijltje-down.png") no-repeat scroll;
+      background-position: 95% 50%;
+      background-color: #e5e5e5;
+      -webkit-appearance: none;
+
+      &:focus {
+        background-color: #e5e5e5;
+        border-color: #e5e5e5;
+        box-shadow: none;
+      }
+
+      option {
+        background-color: #fafafa;
+      }
+
+    }
+
+    select.form-control:not([size]):not([multiple]) {
+      height: calc(2.7rem + 2px);
+    }
+
 
     input[type="checkbox"]{
       width: inherit;
@@ -147,7 +172,7 @@ a, a:hover, a:active, a:focus {
 }
 
 .was-validated .form-control:valid {
-    background: url("../images/vinkje.svg") no-repeat scroll 19px 14px;
+    background: url("../images/vinkje.svg") no-repeat scroll;
     background-position: 97% 50%;
     background-color: #f8f8f8;
     border: 1px solid #e5e5e5;
