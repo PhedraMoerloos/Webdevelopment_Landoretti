@@ -34,3 +34,19 @@
     margin-bottom: 30px;
   }
 }
+
+
+.add-auction-question {
+  text-align: center;
+  margin-top: 20px;
+  font-size: $font-medium-large;
+
+  a:last-child {
+    margin-left: 5px;
+
+    img {
+      width: 2.5%;
+    }
+  }
+
+}

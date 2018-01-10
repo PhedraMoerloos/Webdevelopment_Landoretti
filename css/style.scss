@@ -122,6 +122,20 @@ a, a:hover, a:active, a:focus {
         border: 2px solid #606060;
       }
     }
+
+    button.submit {
+      background-color: #01a6a0;
+      border: 2px solid #01a6a0;
+      font-size: 1.3em;
+      font-weight: 400;
+
+      &:hover, &:focus {
+        background-color: #03918c;
+        border: 2px solid #03918c;
+      }
+    }
+
+
   }/* end form */
 
 } /* end content page*/
@@ -153,7 +167,10 @@ a, a:hover, a:active, a:focus {
   }
 }
 
-.content-page form label.form-check-label {
+/*checkbox label*/
+.content-page form .form-check{
+
+  label.form-check-label {
   font-size: $font-medium-large;
   color: $secondary-color-dark;
   font-weight: 400;
@@ -161,6 +178,8 @@ a, a:hover, a:active, a:focus {
     a {
       text-decoration: underline;
     }
+  }
+
 }
 
 

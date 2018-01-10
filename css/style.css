@@ -603,6 +603,15 @@ form.form-search .row:last-child p {
   .auction-medium-small-col .form-check {
     margin-bottom: 30px; }
 
+.add-auction-question {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 0.9em; }
+  .add-auction-question a:last-child {
+    margin-left: 5px; }
+    .add-auction-question a:last-child img {
+      width: 2.5%; }
+
 body {
   font-family: "Open Sans", sans-serif;
   border-top: 4px solid #01a7a7;
@@ -667,6 +676,14 @@ a, a:hover, a:active, a:focus {
       .content-page form button.buttons-form:hover, .content-page form button.buttons-form:focus {
         background-color: #606060;
         border: 2px solid #606060; }
+    .content-page form button.submit {
+      background-color: #01a6a0;
+      border: 2px solid #01a6a0;
+      font-size: 1.3em;
+      font-weight: 400; }
+      .content-page form button.submit:hover, .content-page form button.submit:focus {
+        background-color: #03918c;
+        border: 2px solid #03918c; }
 
 /* end content page*/
 .was-validated .form-control:invalid {
@@ -687,11 +704,12 @@ a, a:hover, a:active, a:focus {
   background: url("../images/vinkje-wit.svg") no-repeat scroll 19px 14px;
   background-position: 95% 14%; }
 
-.content-page form label.form-check-label {
+/*checkbox label*/
+.content-page form .form-check label.form-check-label {
   font-size: 0.9em;
   color: #4f4f4f;
   font-weight: 400; }
-  .content-page form label.form-check-label a {
+  .content-page form .form-check label.form-check-label a {
     text-decoration: underline; }
 
 .frame {
