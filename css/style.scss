@@ -3,6 +3,7 @@
 @import "partials/home";
 @import "partials/faq";
 @import "partials/search";
+@import "partials/add-auction";
 
 $font:'Open Sans', sans-serif;
 $container-width: 70%;
@@ -69,15 +70,19 @@ a, a:hover, a:active, a:focus {
       color: $primary-color;
       font-weight: 600;
       display: block;
+
+      span {
+        font-size: $font-medium-small;
+      }
     }
 
-    input {
+    input, textarea {
       background-color: #f8f8f8;
       border: 1px solid #e5e5e5;
       border-radius: 0;
     }
 
-    input, button {
+    input, button, textarea {
       padding: 10px 20px;
       width: 100%;
     }

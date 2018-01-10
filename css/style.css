@@ -583,6 +583,12 @@ form.form-search .row:last-child p {
     border-bottom: 1px solid #e5e5e5; }
 
 /* einde search overview */
+.form-add-auction {
+  width: 80%; }
+
+.buttons-photos .col:last-child button {
+  height: 100%; }
+
 body {
   font-family: "Open Sans", sans-serif;
   border-top: 4px solid #01a7a7;
@@ -616,11 +622,13 @@ a, a:hover, a:active, a:focus {
       color: #06137b;
       font-weight: 600;
       display: block; }
-    .content-page form input {
+      .content-page form label span {
+        font-size: 0.8em; }
+    .content-page form input, .content-page form textarea {
       background-color: #f8f8f8;
       border: 1px solid #e5e5e5;
       border-radius: 0; }
-    .content-page form input, .content-page form button {
+    .content-page form input, .content-page form button, .content-page form textarea {
       padding: 10px 20px;
       width: 100%; }
     .content-page form ::placeholder {

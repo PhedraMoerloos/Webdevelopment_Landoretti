@@ -195,7 +195,7 @@
         <h1>Add a new auction</h1>
 
 
-        <form class="form-search" id="needs-validation" action="search.html" method="post" novalidate>
+        <form class="form-add-auction" id="needs-validation" action="search.html" method="post" novalidate>
 
           <div class="row">
             <div class="col">
@@ -232,7 +232,7 @@
           <div class="row">
             <div class="col">
               <label>Description</label>
-              <textarea name="description-auction" rows="8" cols="80" placeholder="Describe your auction as thorough as possible." required></textarea>
+              <textarea class="form-control" name="description-auction" rows="5" cols="80" placeholder="Describe your auction as thorough as possible." required></textarea>
             </div>
           </div>
 
@@ -240,7 +240,7 @@
           <div class="row">
             <div class="col">
               <label>Condition</label>
-              <textarea name="condition-artwork" rows="8" cols="80" placeholder="What's the condition of the artwork?" required></textarea>
+              <textarea class="form-control" name="condition-artwork" rows="5" cols="80" placeholder="What's the condition of the artwork?" required></textarea>
             </div>
           </div>
 
@@ -248,7 +248,7 @@
           <div class="row">
             <div class="col">
               <label>Origin</label>
-              <input type="text" class="form-control" placeholder="What's the origin of the artwork?" name="origin-artwork">
+              <input type="text" class="form-control" placeholder="What's the origin of the artwork?" name="origin-artwork" required>
             </div>
           </div>
 
@@ -262,7 +262,7 @@
           </div>
 
 
-          <div class="row">
+          <div class="row buttons-photos">
             <div class="col">
               <button type="button" name="image-artwork">UPLOAD IMAGE OF THE ARTWORK</button>
             </div>
@@ -285,17 +285,17 @@
           <div class="row">
             <div class="col">
               <label>Minimum estimate price</label>
-              <input type="number" class="form-control" placeholder="XXXX" value="€" name="min-estimate" required>
+              <input type="number" class="form-control" placeholder="XXXX" name="min-estimate" required>
             </div>
 
             <div class="col">
               <label>Maximum estimate price</label>
-              <input type="number" class="form-control" placeholder="XXXX" value="€" name="max-estimate" required>
+              <input type="number" class="form-control" placeholder="XXXX" name="max-estimate" required>
             </div>
 
             <div class="col">
               <label>Buyout price <span>(optional)</span></label>
-              <input type="number" class="form-control" placeholder="XXXX" value="€" name="buyout-price">
+              <input type="number" class="form-control" placeholder="XXXX" name="buyout-price">
             </div>
           </div>
 
