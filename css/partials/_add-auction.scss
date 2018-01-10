@@ -1,6 +1,10 @@
 .form-add-auction  {
   width: 80%;
 
+  .row:last-child {
+    margin-top: 30px;
+  }
+
 }
 
 
@@ -21,4 +25,12 @@
 
 .auction-small-col {
   max-width: 31%;
+}
+
+.auction-medium-small-col {
+  max-width: 38.5%;
+
+  .form-check {
+    margin-bottom: 30px;
+  }
 }

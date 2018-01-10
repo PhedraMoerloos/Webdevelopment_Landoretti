@@ -87,6 +87,11 @@ a, a:hover, a:active, a:focus {
       width: 100%;
     }
 
+    input[type="checkbox"]{
+      width: inherit;
+      margin-left: 0;
+    }
+
     ::placeholder {
       font-size: $font-medium-large;
     }
@@ -146,6 +151,16 @@ a, a:hover, a:active, a:focus {
     background: url("../images/vinkje-wit.svg") no-repeat scroll 19px 14px;
     background-position: 95% 14%;
   }
+}
+
+.content-page form label.form-check-label {
+  font-size: $font-medium-large;
+  color: $secondary-color-dark;
+  font-weight: 400;
+
+    a {
+      text-decoration: underline;
+    }
 }
 
 
