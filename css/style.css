@@ -589,8 +589,12 @@ form.form-search .row:last-child p {
 .buttons-photos .col:last-child button {
   height: 100%; }
 
-.upload-photos-info p {
-  margin-bottom: 0.3em; }
+.upload-photos-info p, .attention-info p {
+  margin-bottom: 0.2em;
+  font-size: 0.9em; }
+
+.auction-small-col {
+  max-width: 31%; }
 
 body {
   font-family: "Open Sans", sans-serif;

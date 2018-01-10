@@ -12,9 +12,13 @@
 }
 
 
-.upload-photos-info {
+.upload-photos-info, .attention-info {
   p {
-    margin-bottom: 0.3em;
-
+    margin-bottom: 0.2em;
+    font-size: $font-medium-large;
   }
+}
+
+.auction-small-col {
+  max-width: 31%;
 }
