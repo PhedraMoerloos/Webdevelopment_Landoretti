@@ -601,7 +601,8 @@ a, a:hover, a:active, a:focus {
   margin-bottom: 90px;
   /* end form */ }
   .content-page .breadcrumbs {
-    font-size: 0.72em; }
+    font-size: 0.72em;
+    color: #01a6a0; }
   .content-page h1 {
     font-weight: 300;
     margin-top: 25px;
