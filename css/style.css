@@ -589,6 +589,9 @@ form.form-search .row:last-child p {
 .buttons-photos .col:last-child button {
   height: 100%; }
 
+.upload-photos-info p {
+  margin-bottom: 0.3em; }
+
 body {
   font-family: "Open Sans", sans-serif;
   border-top: 4px solid #01a7a7;
@@ -641,13 +644,13 @@ a, a:hover, a:active, a:focus {
       margin-left: 0px; }
     .content-page form .col:last-child {
       margin-right: 0px; }
-    .content-page form button {
+    .content-page form button.buttons-form {
       background-color: #757575;
       color: white;
       font-weight: 600;
       font-size: 0.9em;
       border: 2px solid #757575; }
-      .content-page form button:hover, .content-page form button:focus {
+      .content-page form button.buttons-form:hover, .content-page form button.buttons-form:focus {
         background-color: #606060;
         border: 2px solid #606060; }
 
@@ -658,13 +661,17 @@ a, a:hover, a:active, a:focus {
 
 .was-validated .form-control:valid {
   background: url("../images/vinkje.svg") no-repeat scroll 19px 14px;
-  background-position: 98% 50%;
+  background-position: 97% 50%;
   background-color: #f8f8f8;
   border: 1px solid #e5e5e5;
   -webkit-transition: none; }
 
 .was-validated textarea.form-control:valid {
-  background-position: 98% 90%; }
+  background-position: 99% 90%; }
+
+.was-validated .buttons-photos button {
+  background: url("../images/vinkje-wit.svg") no-repeat scroll 19px 14px;
+  background-position: 95% 14%; }
 
 .frame {
   border: 1px solid #e5e5e5;
