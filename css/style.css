@@ -585,8 +585,6 @@ form.form-search .row:last-child p {
 /* einde search overview */
 .form-add-auction {
   width: 80%; }
-  .form-add-auction .row:last-child {
-    margin-top: 30px; }
   .form-add-auction .row:first-child .col {
     max-width: 48%; }
 
@@ -602,8 +600,6 @@ form.form-search .row:last-child p {
 
 .auction-medium-small-col {
   max-width: 38.5%; }
-  .auction-medium-small-col .form-check {
-    margin-bottom: 30px; }
 
 .add-auction-question {
   text-align: center;
@@ -627,7 +623,36 @@ form.form-search .row:last-child p {
     margin-bottom: 0; }
 .form-register .col-3 {
   max-width: 22.5%; }
+.form-register .submit .col-4 {
+  max-width: 31%; }
 
+/* MEDIA QUERIES */
+@media screen and (max-width: 1313px) {
+  .form-register .phone-number {
+    max-width: 48%; }
+  .form-register .col-3 {
+    max-width: 22.5%; } }
+@media screen and (max-width: 1273px) {
+  .form-register .col-3 {
+    max-width: 22%; } }
+@media screen and (max-width: 1165px) {
+  .form-register .phone-number {
+    max-width: 47.5%; }
+  .form-register .col-3 {
+    max-width: 21.5%; } }
+@media screen and (max-width: 1132px) {
+  .form-register .phone-number .col-9 {
+    max-width: 73%; }
+  .form-register .phone-number .col-3 {
+    max-width: 24.5%; } }
+@media screen and (max-width: 1058px) {
+  .form-register .phone-number .col-9 {
+    max-width: 71%; }
+  .form-register .phone-number .col-3 {
+    max-width: 26.5%; } }
+@media screen and (max-width: 1030px) {
+  .form-register .phone-number .col-9 {
+    max-width: 72%; } }
 body {
   font-family: "Open Sans", sans-serif;
   border-top: 4px solid #01a7a7;
@@ -715,6 +740,8 @@ a, a:hover, a:active, a:focus {
       .content-page form button.submit:hover, .content-page form button.submit:focus {
         background-color: #03918c;
         border: 2px solid #03918c; }
+    .content-page form .submit-row {
+      margin-top: 30px; }
 
 /* end content page*/
 .was-validated .form-control:invalid {
@@ -736,12 +763,14 @@ a, a:hover, a:active, a:focus {
   background-position: 95% 14%; }
 
 /*checkbox label*/
-.content-page form .form-check label.form-check-label {
-  font-size: 0.9em;
-  color: #4f4f4f;
-  font-weight: 400; }
-  .content-page form .form-check label.form-check-label a {
-    text-decoration: underline; }
+.content-page form .form-check {
+  margin-bottom: 30px; }
+  .content-page form .form-check label.form-check-label {
+    font-size: 0.9em;
+    color: #4f4f4f;
+    font-weight: 400; }
+    .content-page form .form-check label.form-check-label a {
+      text-decoration: underline; }
 
 .frame {
   border: 1px solid #e5e5e5;

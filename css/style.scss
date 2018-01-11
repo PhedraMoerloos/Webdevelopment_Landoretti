@@ -162,6 +162,11 @@ a, a:hover, a:active, a:focus {
     }
 
 
+    .submit-row {
+      margin-top: 30px;
+    }
+
+
   }/* end form */
 
 } /* end content page*/
@@ -195,6 +200,7 @@ a, a:hover, a:active, a:focus {
 
 /*checkbox label*/
 .content-page form .form-check{
+  margin-bottom: 30px;
 
   label.form-check-label {
   font-size: $font-medium-large;
@@ -207,6 +213,8 @@ a, a:hover, a:active, a:focus {
   }
 
 }
+
+
 
 
 
