@@ -637,6 +637,9 @@ form.form-search .row:last-child p {
 @media screen and (max-width: 1030px) {
   .form-register .phone-number .col-9 {
     max-width: 72%; } }
+.content-page h1.margin-bottom-0 {
+  margin-bottom: 0; }
+
 body {
   font-family: "Open Sans", sans-serif;
   border-top: 4px solid #01a7a7;
@@ -747,6 +750,7 @@ button.button-light {
         text-decoration: none; }
 
 /* end content page*/
+/* validation forms */
 .was-validated .form-control:invalid {
   border-color: #fa0002;
   background-color: #fff1f1; }
@@ -780,6 +784,46 @@ button.button-light {
   margin-left: 0;
   margin-right: 0; }
 
+table.table {
+  margin-top: 20px;
+  margin-bottom: 40px;
+  border: 1px solid #e4e4e4;
+  /* end thead */
+  /* end tbody */ }
+  table.table thead {
+    background-color: #f8f8f8; }
+    table.table thead th {
+      font-size: 0.8em;
+      font-weight: 400;
+      padding: 0.5rem;
+      text-align: center; }
+    table.table thead th:nth-child(2) {
+      text-align: left; }
+  table.table tbody th {
+    padding: 0;
+    width: 135px;
+    padding-right: 3%; }
+  table.table tbody td {
+    border: 1px solid #e4e4e4;
+    text-align: center;
+    vertical-align: middle; }
+    table.table tbody td p {
+      margin-bottom: 0; }
+  table.table tbody td:nth-child(2) {
+    text-align: left;
+    border-left: none; }
+    table.table tbody td:nth-child(2) p:first-child {
+      font-size: 1.3rem; }
+    table.table tbody td:nth-child(2) p:last-child {
+      color: #06137b; }
+  table.table tbody td:nth-child(3) {
+    font-size: 1.3rem; }
+  table.table tbody td:nth-child(4) {
+    font-size: 0.72em; }
+  table.table tbody td:last-child {
+    font-size: 0.8em; }
+
+/* end table */
 /***  positioning elements  ***/
 .display-inline, img.display-inline {
   display: inline-block; }

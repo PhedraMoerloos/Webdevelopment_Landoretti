@@ -208,6 +208,8 @@ a, a:hover, a:active, a:focus {
 } /* end content page*/
 
 
+
+/* validation forms */
 .was-validated .form-control:invalid {
     border-color: #fa0002;
     background-color: #fff1f1;
@@ -234,6 +236,9 @@ a, a:hover, a:active, a:focus {
   }
 }
 
+
+
+
 /*checkbox label*/
 .content-page form .form-check{
   margin-bottom: 30px;
@@ -253,8 +258,6 @@ a, a:hover, a:active, a:focus {
 
 
 
-
-
 .frame {
   border: 1px solid #e5e5e5;
   margin-left: 0;
@@ -262,6 +265,79 @@ a, a:hover, a:active, a:focus {
 
 }
 
+
+
+table.table {
+  margin-top: 20px;
+  margin-bottom: 40px;
+  border: 1px solid #e4e4e4;
+
+  thead {
+    background-color: #f8f8f8;
+    th {
+      font-size: $font-medium-small;
+      font-weight: 400;
+      padding: 0.5rem;
+      text-align: center;
+    }
+
+    th:nth-child(2) {
+      text-align: left;
+    }
+
+  } /* end thead */
+
+
+
+  tbody {
+
+    th {
+      padding:0;
+      width: 135px;
+      padding-right: 3%;
+    }
+
+    td {
+      border: 1px solid #e4e4e4;
+      text-align: center;
+      vertical-align: middle;
+
+      p {
+        margin-bottom: 0;
+      }
+
+    }
+
+    td:nth-child(2) {
+      text-align: left;
+      border-left: none;
+
+      p:first-child {
+        font-size: 1.3rem;
+      }
+
+      p:last-child {
+        color: $primary-color;
+      }
+
+    }
+
+
+    td:nth-child(3) {
+      font-size: 1.3rem;
+    }
+
+    td:nth-child(4) {
+      font-size: $font-small;
+    }
+
+    td:last-child {
+      font-size: $font-medium-small;
+    }
+
+  } /* end tbody */
+
+}/* end table */
 
 
 

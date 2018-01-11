@@ -15,7 +15,7 @@
 
     <meta charset="utf-8">
     <title>My auctions in Landoretti Art</title>
-    <meta name="description" content="See which auctions you have running at Landoretti Art. Their remaining time, estimated price, and much more.">
+    <meta name="description" content="See which auctions you have running at Landoretti Art. What their status is, their remaining time, estimated price, and much more.">
     <!-- Voor responsiveness, Bootstrap is mobile first -->
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
@@ -192,7 +192,7 @@
 
         <p class="breadcrumbs"><a href="home.html">Home</a> > <a href="#">Jasper Poppe</a> > <a href="#">My auctions</a></p>
 
-        <h1>My auctions</h1>
+        <h1 class="margin-bottom-0">My auctions</h1>
 
 
         <div class="clearfix">
@@ -207,207 +207,62 @@
 
         <h4>Pending</h4>
 
+        <table class="table">
 
-        <form class="form-search" id="needs-validation" action="search.html" method="post" novalidate>
+          <thead>
+            <tr>
+              <th scope="col"></th>
+              <th colspan="2" scope="col">Auction details</th>
+              <th scope="col">Estimated price</th>
+              <th scope="col">End date</th>
+              <th scope="col">Remaining time</th>
+            </tr>
+          </thead>
 
-          <div class="row">
-            <div class="col">
-              <label>What are you looking for?</label>
-              <input type="text" class="form-control" placeholder="Mona Lisa" name="artwork" required>
-            </div>
+          <tbody>
+            <tr>
+              <th scope="row"><img src="images/auction-radioplayer-small.jpg" alt="red radioplayer"></th>
 
-            <div class="col">
-              <label>Artist</label>
-              <input type="text" class="form-control" placeholder="Leonardo Da Vinci" name="artist" required>
-            </div>
-          </div>
+              <td colspan="2">
+                <p>Dance of Time III</p>
+                <p>1979, Salvador Dali</p>
+              </td>
 
+              <td>€8900</td>
 
-          <div class="row">
-            <div class="col col-lg-9">
-              <label>Information about the artwork</label>
-            </div>
-          </div>
+              <td>
+                <p>September 09, 2013</p>
+                <p>13:00 p.m. (EST)</p>
+              </td>
 
-
-          <div class="row">
-            <div class="col col-lg-9">
-              <input type="text" class="form-control" placeholder="Lorem ipsum, dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore" name="info-art" required>
-            </div>
-
-            <div class="col">
-              <button class="buttons-form" type="submit" name="submit-search-request">ADMIT REQUEST</button>
-            </div>
-          </div>
+              <td>25d 14u 44m</td>
+            </tr>
 
 
-          <div class="row">
-            <div class="col col-lg-9">
-              <p>Your request must be approved by the administrator. If your question has been approved, it will appear on our site.</p>
-            </div>
-          </div>
+            <tr>
+              <th scope="row"><img src="images/auction-men-blue-small.jpg" alt="red radioplayer"></th>
 
-        </form>
+              <td colspan="2">
+                <p>Dance of Time III</p>
+                <p>1979, Salvador Dali</p>
+              </td>
 
+              <td>€8900</td>
 
+              <td>
+                <p>September 09, 2013</p>
+                <p>13:00 p.m. (EST)</p>
+              </td>
 
-        <div class="row">
-            <div class="col">
-              <h4>Overview</h4>
-            </div>
-            <div class="col">
-              <p class="pages">
-                <a href="#"><</a>
-                <a href="#">1</a>
-                <a href="#">2</a>
-                <a class="active" href="#">3</a>
-                <a href="#">4</a>
-                <a href="#">></a>
-              </p>
-            </div>
-          </div>
+              <td>25d 14u 44m</td>
+            </tr>
+
+          </tbody>
+
+        </table>
 
 
-
-        <div class="search-overview">
-
-          <div class="row frame">
-            <div class="col col-lg-10">
-              <p><span>Search</span>: Mona Lisa, Leonardo Da Vinci</p>
-              <p><span>Description</span>: Lorem ipsum, dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incidid</p>
-              <p><span>Posted</span>: 5 July 2013</p>
-            </div>
-
-            <div class="col">
-              <button type="button" name="own-artwork">
-                <p class="display-inline">I OWN THIS ARTWORK</p>
-                <a href="#"><img class="display-inline" src="images/pijltje-small-dark-blue.png" alt="arrow right"></a>
-              </button>
-            </div>
-          </div>
-
-
-
-          <div class="row frame">
-            <div class="col col-lg-10">
-              <p><span>Search</span>: Mona Lisa, Leonardo Da Vinci</p>
-              <p><span>Description</span>: Lorem ipsum, dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incidid</p>
-              <p><span>Posted</span>: 5 July 2013</p>
-            </div>
-
-            <div class="col">
-              <button type="button" name="own-artwork">
-                <p class="display-inline">I OWN THIS ARTWORK</p>
-                <a href="#"><img class="display-inline" src="images/pijltje-small-dark-blue.png" alt="arrow right"></a>
-              </button>
-            </div>
-          </div>
-
-
-
-          <div class="row frame">
-            <div class="col col-lg-10">
-              <p><span>Search</span>: Mona Lisa, Leonardo Da Vinci</p>
-              <p><span>Description</span>: Lorem ipsum, dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incidid</p>
-              <p><span>Posted</span>: 5 July 2013</p>
-            </div>
-
-            <div class="col">
-              <button type="button" name="own-artwork">
-                <p class="display-inline">I OWN THIS ARTWORK</p>
-                <a href="#"><img class="display-inline" src="images/pijltje-small-dark-blue.png" alt="arrow right"></a>
-              </button>
-            </div>
-          </div>
-
-
-
-          <div class="row frame">
-            <div class="col col-lg-10">
-              <p><span>Search</span>: Mona Lisa, Leonardo Da Vinci</p>
-              <p><span>Description</span>: Lorem ipsum, dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incidid</p>
-              <p><span>Posted</span>: 5 July 2013</p>
-            </div>
-
-            <div class="col">
-              <button type="button" name="own-artwork">
-                <p class="display-inline">I OWN THIS ARTWORK</p>
-                <a href="#"><img class="display-inline" src="images/pijltje-small-dark-blue.png" alt="arrow right"></a>
-              </button>
-            </div>
-          </div>
-
-
-
-          <div class="row frame">
-            <div class="col col-lg-10">
-              <p><span>Search</span>: Mona Lisa, Leonardo Da Vinci</p>
-              <p><span>Description</span>: Lorem ipsum, dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incidid</p>
-              <p><span>Posted</span>: 5 July 2013</p>
-            </div>
-
-            <div class="col">
-              <button type="button" name="own-artwork">
-                <p class="display-inline">I OWN THIS ARTWORK</p>
-                <a href="#"><img class="display-inline" src="images/pijltje-small-dark-blue.png" alt="arrow right"></a>
-              </button>
-            </div>
-          </div>
-
-
-
-          <div class="row frame">
-            <div class="col col-lg-10">
-              <p><span>Search</span>: Mona Lisa, Leonardo Da Vinci</p>
-              <p><span>Description</span>: Lorem ipsum, dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incidid</p>
-              <p><span>Posted</span>: 5 July 2013</p>
-            </div>
-
-            <div class="col">
-              <button type="button" name="own-artwork">
-                <p class="display-inline">I OWN THIS ARTWORK</p>
-                <a href="#"><img class="display-inline" src="images/pijltje-small-dark-blue.png" alt="arrow right"></a>
-              </button>
-            </div>
-          </div>
-
-
-
-          <div class="row frame">
-            <div class="col col-lg-10">
-              <p><span>Search</span>: Mona Lisa, Leonardo Da Vinci</p>
-              <p><span>Description</span>: Lorem ipsum, dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incidid</p>
-              <p><span>Posted</span>: 5 July 2013</p>
-            </div>
-
-            <div class="col">
-              <button type="button" name="own-artwork">
-                <p class="display-inline">I OWN THIS ARTWORK</p>
-                <a href="#"><img class="display-inline" src="images/pijltje-small-dark-blue.png" alt="arrow right"></a>
-              </button>
-            </div>
-          </div>
-
-
-
-          <div class="row frame">
-            <div class="col col-lg-10">
-              <p><span>Search</span>: Mona Lisa, Leonardo Da Vinci</p>
-              <p><span>Description</span>: Lorem ipsum, dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incidid</p>
-              <p><span>Posted</span>: 5 July 2013</p>
-            </div>
-
-            <div class="col">
-              <button type="button" name="own-artwork">
-                <p class="display-inline">I OWN THIS ARTWORK</p>
-                <a href="#"><img class="display-inline" src="images/pijltje-small-dark-blue.png" alt="arrow right"></a>
-              </button>
-            </div>
-          </div>
-
-        </div>
-
-
+        <h4>Refused</h4>
 
 
         </div><!-- end container content -->
