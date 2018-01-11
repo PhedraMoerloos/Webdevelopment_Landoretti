@@ -1,0 +1,577 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+
+    <!-- Google Analytics tracking -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-2761314-92"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'UA-2761314-92');
+    </script>
+
+
+    <meta charset="utf-8">
+    <title>Register to Landoretti Art</title>
+    <meta name="description" content="Want to be able to sell your artwork or buy art from Landoretti? Register and make you own account here.">
+    <!-- Voor responsiveness, Bootstrap is mobile first -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+    <link href="css/mdb.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet">
+    <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico"/>
+
+  </head>
+
+
+  <body>
+
+
+    <header>
+
+      <div class="logo-space">
+        <a href="home.html"><img class="logo-top" src="images/logo-top.jpg" alt="logo Landoretti Art"></a>
+      </div>
+
+
+
+      <!-- NAVIGATION -->
+      <div class="container-nav-top">
+          <div class="top-nav container row">
+
+
+              <div class="top-nav-menu">
+
+                <div id="logged-out">
+                  <ul class="nav">
+
+                    <li class="nav-item-top">
+                      <a class="nav-link" href="register.html">REGISTER</a>
+                    </li>
+
+                    <li class="nav-item-top">
+                      <a class="nav-link" href="#" onclick="Go_to_login()">LOGIN</a>
+                    </li>
+
+                  </ul>
+                </div>
+
+
+
+                <div id="login">
+                  <ul class="nav">
+
+                    <li class="nav-item-top">
+                      <a class="nav-link" href="register.html">REGISTER</a>
+                    </li>
+
+                    <li class="nav-item-top">
+                      <input type="text" placeholder="User" name="user">
+                    </li>
+
+                    <li class="nav-item-top">
+                      <input type="text" placeholder="Password" name="password">
+                    </li>
+
+                    <li class="nav-item-top">
+                      <button type="submit" onclick="Login()"><img src="images/pijltje-login.png" alt="login-icon"></button>
+                    </li>
+
+                  </ul>
+                </div>
+
+
+                <div id="logged-in">
+                  <ul class="nav">
+                          <li class="nav-item-top">
+                            <img id="watchlist" class="float" src="images/transparant.png">
+                            <a class="nav-link navbar-left" href="#">WATCHLIST</a>
+                          </li>
+
+                          <li class="nav-item-top nav-top-middle">
+                            <img id="profile" class="float" src="images/transparant.png">
+                            <a class="nav-link nav-top-middle-text" href="#">PROFILE</a>
+                          </li>
+
+                          <li class="nav-item-top">
+                            <a class="nav-link" onclick="Logout()" href="#">LOGOUT</a>
+                          </li>
+                  </ul>
+                </div>
+
+
+
+              </div>
+
+
+              <div class="searchbar">
+                <form action="home.html">
+                  <input type="text" placeholder="Search" name="search">
+                  <button type="submit"><img src="images/searchicon.png" alt="search-icon"></button>
+                </form>
+              </div>
+
+
+          </div>
+      </div><!-- end container-nav-top -->
+
+
+
+      <div class="container-nav-bottom">
+          <div class="bottom-nav container row">
+
+
+              <div class="bottom-nav-menu">
+
+                  <ul class="nav">
+                      <li class="nav-item-bottom">
+                        <a class="nav-link active" href="home.html">HOME</a>
+                      </li>
+                      <li class="nav-item-bottom">
+                        <a class="nav-link" href="#">ART</a>
+                      </li>
+                      <li class="nav-item-bottom">
+                        <a class="nav-link" href="search.html">ISEARCH</a>
+                      </li>
+                      <li class="nav-item-bottom">
+                        <a class="nav-link" href="#">MYAUCTIONS</a>
+                      </li>
+                      <li class="nav-item-bottom">
+                        <a class="nav-link" href="#">MYBIDS</a>
+                      </li>
+                      <li class="nav-item-bottom">
+                        <a class="nav-link" href="#">CONTACT</a>
+                      </li>
+                  </ul>
+
+              </div>
+
+
+              <div class="languages">
+                <p>
+                  <a href="#">NL</a>
+                  <a href="#">FR</a>
+                  <a href="#">EN</a>
+                </p>
+              </div>
+
+
+          </div>
+      </div><!-- end container-nav-bottom -->
+
+
+
+      <div class="header">
+
+        <img class="header-image" src="images/record-player-small.jpg" alt="record-player">
+
+        <div class="header-auction">
+            <h4>Lorem ipsum</h4>
+            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. magnis dis parturient montes, nascetur ridiculus mus...</p>
+            <p><span>Price:</span> <span>€ 299,99</span></p>
+            <p>
+              <a href="#">VISIT AUCTION</a>
+              <a href="#"><img class="display-inline" src="images/pijltje-visit-auction.png" alt="arrow right"></a>
+            </p>
+        </div>
+        <img class="circle-icon-header" src="images/slider-bol-icon-cropped.png" alt="circle icon">
+
+      </div>
+
+    </header>
+
+
+
+
+      <!-- CONTENT -->
+
+      <div class="container padding-0 content-page">
+
+        <p class="breadcrumbs"><a href="home.html">Home</a> > <a href="#">Register</a></p>
+
+        <h1>Register</h1>
+
+
+
+        <form class="form-register" id="needs-validation" action="search.html" method="post" novalidate>
+
+
+          <div class="row">
+            <div class="col">
+              <label>Company or name</label>
+              <input type="text" class="form-control" placeholder="Studio 6" name="account-name" required>
+            </div>
+
+            <div class="col">
+              <label>Email</label>
+              <input type="email" class="form-control" placeholder="name@provider.com" name="account-email" required>
+            </div>
+          </div>
+
+
+
+          <div class="row">
+            <div class="col">
+              <label>Password</label>
+              <input type="password" class="form-control" value="********" name="account-password" required>
+            </div>
+
+            <div class="col">
+              <label>Password confirmation</label>
+              <input type="password" class="form-control" value="********" name="account-password-confirm" required>
+            </div>
+          </div>
+
+
+          <div class="row">
+            <div class="col col-6">
+
+              <label>Country</label>
+              <select class="form-control">
+                <option>Belgium</option>
+                <option>Germany</option>
+                <option>UK</option>
+                <option>US</option>
+                <option>France</option>
+                <option>Italy</option>
+                <option>Spain</option>
+                <option>Netherlands</option>
+                <option>Denmark</option>
+                <option>Sweden</option>
+                <option>Portugal</option>
+                <option>Norway</option>
+                <option>Croatia</option>
+              </select>
+
+            </div>
+
+
+            <div class="col col-3">
+              <label>Zip Code</label>
+              <input type="number" class="form-control" placeholder="8400" name="account-zipcode" required>
+            </div>
+
+            <div class="col col-3">
+              <label>City</label>
+              <input type="text" class="form-control" placeholder="Oostende" name="account-city" required>
+            </div>
+
+          </div>
+
+
+
+
+          <div class="row">
+
+            <div class="col col-6">
+
+              <label>Address</label>
+              <input type="text" class="form-control" placeholder="Zuidstraat 15 C4" name="account-address" required>
+
+            </div>
+
+
+
+            <div class="col col-6">
+
+              <label>Phone number</label>
+
+              <div class="row">
+                <div class="col col-3">
+                  <input type="text" class="form-control" placeholder="+32" name="account-phone-prefix" required>
+                </div>
+
+                <div class="col col-9">
+                  <input type="text" class="form-control" placeholder="XX XXX XX XX" name="account-phone" required>
+                </div>
+              </div>
+
+            </div>
+
+          </div>
+
+
+
+
+          <div class="row">
+            <div class="col">
+              <label>Account number</label>
+              <input type="text" class="form-control" placeholder="XX XXX XX XX" name="account-number" required>
+            </div>
+
+            <div class="col">
+              <label>VAT number</label>
+              <input type="text" class="form-control" placeholder="XX XXX XX XX" name="account-VAT-number" required>
+            </div>
+          </div>
+
+
+
+
+          <div class="row">
+            <div class="col">
+              <label>Alternative payment methods</label>
+              <input type="text" class="form-control" placeholder="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua." name="account-alternative-payment" required>
+            </div>
+          </div>
+
+
+
+          <div class="row">
+            <div class="col auction-medium-small-col">
+
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="check-terms">
+                <label class="form-check-label" for="check-terms">
+                  I Agree To <a href="#">The Terms & Conditions</a>
+                </label>
+              </div>
+
+              <button class="buttons-form submit" type="submit" name="submit-new-auction">ADD AUCTION</button>
+
+              <p class="add-auction-question">
+                <a href="#">ASK A QUESTION</a>
+                <a href="#"><img class="display-inline" src="images/pijltje-visit-auction.png" alt="arrow right"></a>
+              </p>
+
+            </div>
+          </div>
+
+        </form>
+
+
+        </div><!-- end container content -->
+
+
+      </div>
+
+
+
+      <!-- FOOTER  -->
+      <footer>
+        <div class="container-footer">
+          <div class="container padding-0">
+
+
+            <div class="row footer">
+
+
+              <div class="col">
+
+                <div class="blok">
+                  <p class="footer-title">HELP</p>
+                  <p><a href="#">Login</a></p>
+                  <p><a href="#">Register</a></p>
+                </div>
+
+
+                <div class="blok">
+                  <p class="footer-title">HELP</p>
+                  <p><a href="#">Terms of Service</a></p>
+                  <p><a href="#">Privacy Policy</a></p>
+                  <p><a href="#">FAQ</a></p>
+                  <p><a href="#">Contact Us</a></p>
+                  <p><a href="#">About Us</a></p>
+                </div>
+
+
+                <div class="blok">
+                  <p class="footer-title">LANGUAGES</p>
+                  <p><a href="#">Nederlands</a></p>
+                  <p><a href="#">Français</a></p>
+                  <p><a href="#">English</a></p>
+                </div>
+
+              </div><!-- einde column 1 footer -->
+
+
+
+
+
+              <div class="col">
+
+                <div class="blok">
+                  <p class="footer-title">STYLE</p>
+                  <p><a href="#">Abstract</a></p>
+                  <p><a href="#">African American</a></p>
+                  <p><a href="#">Asian Contemporary</a></p>
+                  <p><a href="#">Conceptual</a></p>
+                  <p><a href="#">Contemporary</a></p>
+                  <p><a href="#">Emerging Artists</a></p>
+                  <p><a href="#">Figurative</a></p>
+                  <p><a href="#">Middle Eastern Contemporary</a></p>
+                  <p><a href="#">Minimalism</a></p>
+                  <p><a href="#">Modern</a></p>
+                  <p><a href="#">Pop</a></p>
+                  <p><a href="#">Urban</a></p>
+                  <p><a href="#">Vintage Photographs</a></p>
+                </div>
+
+
+                <div class="blok">
+                  <p class="footer-title">STYLE</p>
+                  <p><a href="#">Design</a></p>
+                  <p><a href="#">Paintings and Works on Paper</a></p>
+                  <p><a href="#">Photographs</a></p>
+                  <p><a href="#">Prints and Multiples</a></p>
+                  <p><a href="#">Sculpture</a></p>
+                </div>
+
+              </div><!-- einde column 2 footer -->
+
+
+
+
+
+              <div class="col">
+
+                <div class="blok">
+                  <p class="footer-title">PRICE</p>
+                  <p><a href="#">Up to 5,000</a></p>
+                  <p><a href="#">5,000–10,000</a></p>
+                  <p><a href="#">10,000–25,000</a></p>
+                  <p><a href="#">25,000–50,000</a></p>
+                  <p><a href="#">50,000–100,000</a></p>
+                  <p><a href="#">Above</a></p>
+                </div>
+
+
+                <div class="blok">
+                  <p class="footer-title">ERA</p>
+                  <p><a href="#">Pre-War</a></p>
+                  <p><a href="#">1940s–1950s</a></p>
+                  <p><a href="#">1960s–1980s</a></p>
+                  <p><a href="#">1990s–Present</a></p>
+                </div>
+
+
+                <div class="blok">
+                  <p class="footer-title">ENDINGS</p>
+                  <p><a href="#">Ending this Week</a></p>
+                  <p><a href="#">Newly Listed</a></p>
+                  <p><a href="#">Purchase Now</a></p>
+                  <p><a href="#">1990s–Present</a></p>
+                </div>
+
+              </div> <!-- einde column 3 footer -->
+
+
+              <div class="col">
+                <div class="blok search-footer">
+                  <p class="footer-title">FIND WHAT YOU NEED.</p>
+
+                  <div class="searchbar">
+                    <form action="home.html">
+                      <input type="text" placeholder="Search" name="search">
+                      <button type="submit"><img src="images/searchicon.png" alt="search-icon"></button>
+                    </form>
+                  </div>
+
+                </div>
+
+
+                <div class="blok">
+                  <p class="footer-title">CONTACT</p>
+                  <p>Landoretti ART</p>
+                  <p>Straatnaam xxx</p>
+                  <p>xxxx, Oostende</p>
+                </div>
+
+
+                <div class="blok contact-info">
+
+                  <div>
+                    <img id="cellphone" class="display-inline" src="images/transparant.png" alt="cellphone">
+                    <p class="display-inline">+xx (0)x xxx xx xx</p>
+                  </div>
+
+                  <div>
+                    <img id="mail" class="display-inline" src="images/transparant.png" alt="mail envelope">
+                    <p class="display-inline"><a href="mailto:info@landorettiart.com">info@landorettiart.com</a></p>
+                  </div>
+                </div>
+
+                <div class="blok social-icons">
+                  <a href="#" class="display-inline"><img id="facebook" src="images/transparant.png" alt="Facebook link"></a>
+                  <a href="#" class="display-inline"><img id="twitter" src="images/transparant.png" alt="Twitter link"></a>
+                  <a href="#" class="display-inline"><img id="youtube" src="images/transparant.png" alt="Youtube link"></a>
+                  <a href="#" class="display-inline"><img id="google" src="images/transparant.png" alt="Google+ link"></a>
+                </div>
+
+                <p class="copyright">© 2013 Studio6, Inc. All rights reserved.</p>
+
+
+              </div>
+
+            </div>
+
+          </div>
+        </div><!-- end container footer upper part-->
+
+
+
+        <div class="container-nav-bottom">
+            <div class="bottom-nav container row">
+
+
+                <div class="bottom-nav-menu">
+
+                    <ul class="nav">
+                        <li class="nav-item-bottom">
+                          <a class="nav-link active" href="home.html">HOME</a>
+                        </li>
+                        <li class="nav-item-bottom">
+                          <a class="nav-link" href="#">ART</a>
+                        </li>
+                        <li class="nav-item-bottom">
+                          <a class="nav-link" href="search.html">ISEARCH</a>
+                        </li>
+                        <li class="nav-item-bottom">
+                          <a class="nav-link" href="#">MYAUCTIONS</a>
+                        </li>
+                        <li class="nav-item-bottom">
+                          <a class="nav-link" href="#">MYBIDS</a>
+                        </li>
+                        <li class="nav-item-bottom">
+                          <a class="nav-link" href="#">CONTACT</a>
+                        </li>
+                    </ul>
+
+                </div>
+
+
+                <div class="languages">
+                  <p>
+                    <a href="#">NL</a>
+                    <a href="#">FR</a>
+                    <a href="#">EN</a>
+                  </p>
+                </div>
+
+
+            </div>
+        </div><!-- end container footer bottom part -->
+
+
+        <div class="logo-space">
+          <a href="home.html"><img class="logo-bottom" src="images/logo-bottom.jpg" alt="logo Landoretti Art"></a>
+        </div>
+
+      </footer>
+
+
+
+
+
+    <!-- Bootstrap gebruikt jquery en popper -->
+    <script type="text/javascript" src="js/script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+
+  </body>
+
+</html>

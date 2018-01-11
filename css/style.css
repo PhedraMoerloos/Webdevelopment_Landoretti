@@ -614,6 +614,20 @@ form.form-search .row:last-child p {
     .add-auction-question a:last-child img {
       width: 2.5%; }
 
+.form-register .col-6 {
+  max-width: 48.4%; }
+  .form-register .col-6 .row .col-3 {
+    margin-right: 0;
+    padding-right: 5px;
+    margin-bottom: 0; }
+  .form-register .col-6 .row .col-9 {
+    margin-left: 0;
+    padding-left: 5px;
+    padding-right: 4px;
+    margin-bottom: 0; }
+.form-register .col-3 {
+  max-width: 22.5%; }
+
 body {
   font-family: "Open Sans", sans-serif;
   border-top: 4px solid #01a7a7;
