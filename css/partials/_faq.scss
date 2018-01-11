@@ -22,37 +22,10 @@
 
 
 
-
-.search-faq {
-  float:right;
-  padding: 0.75em 0.5em 0.75em 1.5em;
-  background-color: #f5f5f5;
-  border: 1px solid #e5e5e5;
+.search-button {
   border-top: none;
-
-  &:hover {
-    background-color: #e8e8e8;
-  }
-
-  p {
-    margin-bottom: 0;
-
-   a {
-    color: $primary-color;
-    font-weight: 700;
-    font-size: $font-medium-small;
-
-    &:hover {
-      text-decoration: none;
-    }
-    }
-  }
-
-  img {
-    margin-left: 12px;
-  }
-
 }
+
 
 
 .questions-faq {

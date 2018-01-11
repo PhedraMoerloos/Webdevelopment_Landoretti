@@ -137,7 +137,7 @@ a, a:hover, a:active, a:focus {
       margin-right: 0px;
     }
 
-    button.buttons-form {
+    button.button-dark {
       background-color: #757575;
       color: white;
       font-weight: 600;
@@ -150,7 +150,8 @@ a, a:hover, a:active, a:focus {
       }
     }
 
-    button.submit {
+    button.button-submit {
+      color: white;
       background-color: #01a6a0;
       border: 2px solid #01a6a0;
       font-size: 1.3em;
@@ -163,12 +164,46 @@ a, a:hover, a:active, a:focus {
     }
 
 
+      img {
+        margin-left: 12px;
+      }
+
+    }
+
+
     .submit-row {
       margin-top: 30px;
     }
 
 
   }/* end form */
+
+
+  button.button-light {
+    float:right;
+    padding: 0.75em 0.5em 0.75em 1.5em;
+    background-color: #f5f5f5;
+    border: 1px solid #e5e5e5;
+
+    &:hover {
+      background-color: #e8e8e8;
+    }
+
+    p {
+      margin-bottom: 0;
+
+     a {
+      color: $primary-color;
+      font-weight: 700;
+      font-size: $font-medium-small;
+
+        &:hover {
+          text-decoration: none;
+        }
+      }
+    }
+
+
 
 } /* end content page*/
 

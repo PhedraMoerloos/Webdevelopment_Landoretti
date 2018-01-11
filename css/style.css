@@ -458,24 +458,8 @@ p.footer-title {
 .faq-links p:last-child {
   margin-bottom: 0; }
 
-.search-faq {
-  float: right;
-  padding: 0.75em 0.5em 0.75em 1.5em;
-  background-color: #f5f5f5;
-  border: 1px solid #e5e5e5;
+.search-button {
   border-top: none; }
-  .search-faq:hover {
-    background-color: #e8e8e8; }
-  .search-faq p {
-    margin-bottom: 0; }
-    .search-faq p a {
-      color: #06137b;
-      font-weight: 700;
-      font-size: 0.8em; }
-      .search-faq p a:hover {
-        text-decoration: none; }
-  .search-faq img {
-    margin-left: 12px; }
 
 .questions-faq {
   margin-top: 20px; }
@@ -668,8 +652,7 @@ a, a:hover, a:active, a:focus {
 
 .content-page {
   margin-top: 25px;
-  margin-bottom: 90px;
-  /* end form */ }
+  margin-bottom: 90px; }
   .content-page .breadcrumbs {
     font-size: 0.72em;
     color: #01a6a0; }
@@ -723,25 +706,45 @@ a, a:hover, a:active, a:focus {
       margin-left: 0px; }
     .content-page form .col:last-child {
       margin-right: 0px; }
-    .content-page form button.buttons-form {
+    .content-page form button.button-dark {
       background-color: #757575;
       color: white;
       font-weight: 600;
       font-size: 0.9em;
       border: 2px solid #757575; }
-      .content-page form button.buttons-form:hover, .content-page form button.buttons-form:focus {
+      .content-page form button.button-dark:hover, .content-page form button.button-dark:focus {
         background-color: #606060;
         border: 2px solid #606060; }
-    .content-page form button.submit {
+    .content-page form button.button-submit {
+      color: white;
       background-color: #01a6a0;
       border: 2px solid #01a6a0;
       font-size: 1.3em;
       font-weight: 400; }
-      .content-page form button.submit:hover, .content-page form button.submit:focus {
+      .content-page form button.button-submit:hover, .content-page form button.button-submit:focus {
         background-color: #03918c;
         border: 2px solid #03918c; }
-    .content-page form .submit-row {
-      margin-top: 30px; }
+    .content-page form img {
+      margin-left: 12px; }
+  .content-page .submit-row {
+    margin-top: 30px; }
+
+/* end form */
+button.button-light {
+  float: right;
+  padding: 0.75em 0.5em 0.75em 1.5em;
+  background-color: #f5f5f5;
+  border: 1px solid #e5e5e5; }
+  button.button-light:hover {
+    background-color: #e8e8e8; }
+  button.button-light p {
+    margin-bottom: 0; }
+    button.button-light p a {
+      color: #06137b;
+      font-weight: 700;
+      font-size: 0.8em; }
+      button.button-light p a:hover {
+        text-decoration: none; }
 
 /* end content page*/
 .was-validated .form-control:invalid {
