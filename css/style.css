@@ -648,9 +648,9 @@ form.form-search .row:last-child p {
 .clearfix .button-light:last-child {
   margin-right: 5px; }
 
-/*.filter-mywatchlist {
-  margin-left: ;
-}*/
+.filter-mywatchlist {
+  margin-left: 4%; }
+
 body {
   font-family: "Open Sans", sans-serif;
   border-top: 4px solid #01a7a7;
@@ -858,6 +858,8 @@ table.table {
     border-right: 1px solid #cbcbcb; }
   table.table thead tr th.table-images {
     border-left: 1px solid #cbcbcb; }
+  table.table tbody tr td.check {
+    padding-left: 0; }
 
 /* end table */
 /***  positioning elements  ***/
