@@ -648,6 +648,9 @@ form.form-search .row:last-child p {
 .clearfix .button-light:last-child {
   margin-right: 5px; }
 
+/*.filter-mywatchlist {
+  margin-left: ;
+}*/
 body {
   font-family: "Open Sans", sans-serif;
   border-top: 4px solid #01a7a7;
@@ -657,6 +660,8 @@ body {
 
 a {
   color: #01a6a0; }
+  a:hover {
+    color: #01a6a0; }
   a:focus, a:active {
     font-weight: bold; }
 
@@ -817,7 +822,7 @@ table.table {
       font-weight: 400;
       padding: 0.5rem;
       text-align: center; }
-    table.table thead th:nth-child(2) {
+    table.table thead th.auction-details {
       text-align: left; }
   table.table tbody th {
     padding: 0;
@@ -829,16 +834,16 @@ table.table {
     vertical-align: middle; }
     table.table tbody td p {
       margin-bottom: 0; }
-  table.table tbody td:nth-child(2) {
+  table.table tbody td.auction-details {
     text-align: left;
     border-left: none; }
-    table.table tbody td:nth-child(2) p:first-child {
+    table.table tbody td.auction-details p:first-child {
       font-size: 1.3rem; }
-    table.table tbody td:nth-child(2) p:last-child {
+    table.table tbody td.auction-details p:last-child {
       color: #06137b; }
-  table.table tbody td:nth-child(3) {
+  table.table tbody td.estimated-price {
     font-size: 1.3rem; }
-  table.table tbody td:nth-child(4) {
+  table.table tbody td.end-date {
     font-size: 0.72em; }
   table.table tbody td:last-child {
     font-size: 0.8em; }

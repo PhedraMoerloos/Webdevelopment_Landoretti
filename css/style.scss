@@ -34,6 +34,10 @@ body {
 a {
   color: $link-color;
 
+  &:hover,  {
+    color: $link-color;
+  }
+
   &:focus, &:active {
     font-weight: bold;
   }
@@ -308,7 +312,7 @@ table.table {
       text-align: center;
     }
 
-    th:nth-child(2) {
+    th.auction-details {
       text-align: left;
     }
 
@@ -335,7 +339,7 @@ table.table {
 
     }
 
-    td:nth-child(2) {
+    td.auction-details {
       text-align: left;
       border-left: none;
 
@@ -350,11 +354,11 @@ table.table {
     }
 
 
-    td:nth-child(3) {
+    td.estimated-price {
       font-size: 1.3rem;
     }
 
-    td:nth-child(4) {
+    td.end-date {
       font-size: $font-small;
     }
 
