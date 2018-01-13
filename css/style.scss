@@ -299,21 +299,31 @@ a {
 table.table {
   margin-top: 20px;
   margin-bottom: 40px;
-  border: 1px solid #e4e4e4;
+
+  tr td:first-child {
+    border: none;
+  }
+
+  tr:first-child td {
+    border-top: none;
+  }
 
   thead {
-    background-color: #f8f8f8;
-    border: 1px solid #cbcbcb;
 
     th {
       font-size: $font-medium-small;
       font-weight: 400;
       padding: 0.5rem;
       text-align: center;
+      background-color: #f8f8f8;
+      border-top: 1px solid #cbcbcb;
+      border-bottom: 1px solid #cbcbcb;
     }
+
 
     th.auction-details {
       text-align: left;
+      padding-left: 4%;
     }
 
   } /* end thead */
@@ -325,12 +335,11 @@ table.table {
     th {
       padding:0;
       width: 135px;
-      padding-right: 3%;
     }
 
 
     th.check {
-      
+
     }
 
     td {
@@ -347,6 +356,7 @@ table.table {
     td.auction-details {
       text-align: left;
       border-left: none;
+      padding-left: 4%;
 
       p:first-child {
         font-size: 1.3rem;
@@ -372,6 +382,20 @@ table.table {
     }
 
   } /* end tbody */
+
+
+  thead tr th.check {
+    background-color: white;
+    border:none;
+  }
+
+  thead tr th:last-child {
+    border-right: 1px solid #cbcbcb;
+  }
+
+  thead tr th.table-images {
+    border-left: 1px solid #cbcbcb;
+  }
 
 }/* end table */
 
