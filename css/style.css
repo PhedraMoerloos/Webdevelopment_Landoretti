@@ -663,10 +663,6 @@ a {
 .container {
   width: 70%; }
 
-/*
-.activated {
-  font-weight: bold;
-}*/
 .content-page {
   margin-top: 25px;
   margin-bottom: 90px; }
@@ -683,6 +679,10 @@ a {
   .content-page .small-grey {
     font-size: 0.9em;
     color: #767676; }
+  .content-page .small-grey.filter {
+    padding-bottom: 5px; }
+    .content-page .small-grey.filter:focus, .content-page .small-grey.filter:active {
+      border-bottom: 3px solid #d4d4d4; }
   .content-page .margin-top-medium {
     margin-top: 40px; }
   .content-page form {

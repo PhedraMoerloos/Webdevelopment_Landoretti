@@ -1,7 +1,9 @@
 window.onload = function() {
   var header = document.querySelector("h1").innerHTML;
 
-  if (header == "My watchlist" || header == "My auctions") {
+  if (header == "My watchlist" ||
+      header == "My auctions"  ||
+      header == "Add a new auction") {
     Login();
   }
 

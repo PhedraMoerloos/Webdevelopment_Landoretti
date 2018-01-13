@@ -47,11 +47,6 @@ a {
     width: $container-width;
 }
 
-/*
-.activated {
-  font-weight: bold;
-}*/
-
 
 
 
@@ -80,6 +75,14 @@ a {
   .small-grey {
     font-size: $font-medium-large;
     color: #767676;
+  }
+
+  .small-grey.filter {
+    padding-bottom: 5px;
+
+    &:focus, &:active {
+      border-bottom: 3px solid #d4d4d4;
+    }
   }
 
   .margin-top-medium {
