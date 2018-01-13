@@ -14,8 +14,8 @@
 
 
     <meta charset="utf-8">
-    <title>My auctions in Landoretti Art</title>
-    <meta name="description" content="See which auctions you have running at Landoretti Art. What their status is, their remaining time, estimated price, and much more.">
+    <title>My watchlist in Landoretti Art</title>
+    <meta name="description" content="Not sure which artworks to buy yet? See which auctions got your attention and what their status is.">
     <!-- Voor responsiveness, Bootstrap is mobile first -->
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
@@ -86,19 +86,21 @@
 
                 <div id="logged-in">
                   <ul class="nav">
-                          <li class="nav-item-top">
-                            <img id="watchlist" class="float" src="images/transparant.png">
-                            <a class="nav-link navbar-left" href="#">WATCHLIST</a>
-                          </li>
 
-                          <li class="nav-item-top nav-top-middle">
-                            <img id="profile" class="float" src="images/transparant.png">
-                            <a class="nav-link nav-top-middle-text" href="#">PROFILE</a>
-                          </li>
+                    <li class="nav-item-top">
+                      <img id="watchlist" class="float" src="images/transparant.png">
+                      <a class="nav-link navbar-left active" href="#">WATCHLIST</a>
+                    </li>
 
-                          <li class="nav-item-top">
-                            <a class="nav-link" onclick="Logout()" href="#">LOGOUT</a>
-                          </li>
+                    <li class="nav-item-top nav-top-middle">
+                      <img id="profile" class="float" src="images/transparant.png">
+                      <a class="nav-link nav-top-middle-text" href="#">PROFILE</a>
+                    </li>
+
+                    <li class="nav-item-top">
+                      <a class="nav-link" onclick="Logout()" href="#">LOGOUT</a>
+                    </li>
+
                   </ul>
                 </div>
 
@@ -137,7 +139,7 @@
                         <a class="nav-link" href="search.html">ISEARCH</a>
                       </li>
                       <li class="nav-item-bottom">
-                        <a class="nav-link active" href="#">MYAUCTIONS</a>
+                        <a class="nav-link" href="#">MYAUCTIONS</a>
                       </li>
                       <li class="nav-item-bottom">
                         <a class="nav-link" href="#">MYBIDS</a>
@@ -190,9 +192,9 @@
 
       <div class="container padding-0 content-page">
 
-        <p class="breadcrumbs"><a href="home.html">Home</a> > <a href="#">Jasper Poppe</a> > <a href="#">My auctions</a></p>
+        <p class="breadcrumbs"><a href="home.html">Home</a> > <a href="#">Jasper Poppe</a> > <a href="#">My watchlist</a></p>
 
-        <h1 class="margin-bottom-0">My auctions</h1>
+        <h1 class="margin-bottom-0">My watchlist</h1>
 
 
         <div class="clearfix">
@@ -202,7 +204,19 @@
             <img class="display-inline" src="images/pijltje-small-dark-blue.png" alt="arrow-right">
           </button>
 
+          <button class="button-light" type="button">
+            <p class="display-inline"><a href="myauctions-new.html">DELETE SELECTED</a></p>
+            <img class="display-inline" src="images/pijltje-small-dark-blue.png" alt="arrow-right">
+          </button>
+
         </div>
+
+
+        <p>
+          <a class="small-grey active" href="#">all(11)</a> |
+          <a class="small-grey" href="#">active(8)</a> |
+          <a class="small-grey" href="#">ended(3)</a>
+        </p>
 
 
         <h4>Pending</h4>
@@ -302,7 +316,7 @@
 
         <h4>Active</h4>
 
-        <p class="small-grey">You currently have no active auctions. Please add a new auction or wait for approval.</p>
+        <p class="info">You currently have no active auctions. Please add a new auction or wait for approval.</p>
 
 
 

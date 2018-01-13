@@ -50,9 +50,8 @@ $font-medium-large: 0.9em;
 
 .nav {
    li.nav-item-top {
-
-   border-right: 1px solid $primary-color;
-   width: 115px;
+     border-right: 1px solid $primary-color;
+     width: 115px;
 
 
 
@@ -72,18 +71,22 @@ $font-medium-large: 0.9em;
      }
 
      a {
-     color: $primary-color;
-     padding: 0;
-     padding-left: 1.7em;
+       color: $primary-color;
+       padding: 0;
+       padding-left: 1.7em;
 
-     &:hover {
-     color: $hover-color;
+       &:hover {
+         color: $hover-color;
+       }
+
+       &:active, &:focus {
+         font-weight: bold;
+       }
+
      }
 
-     &:active, &:focus {
-     font-weight: bold;
-     }
-
+     a.active {
+       font-weight: bold;
      }
    }
 }
@@ -262,16 +265,16 @@ width: 30%;
      color: $secondary-color-dark;
      padding: 0;
 
-
-     &:hover {
-     color: $hover-color-nav;
-     }
-
-     &:active, &:focus {
-     font-weight: bold;
-     }
+       &:hover, &:active, &:focus {
+       color: $hover-color-nav;
+       }
 
      }
+
+     a.active {
+       color: black;
+     }
+
    }
 }
 

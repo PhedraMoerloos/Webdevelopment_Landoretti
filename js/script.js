@@ -1,3 +1,11 @@
+window.onload = function() {
+  var header = document.querySelector("h1").innerHTML;
+
+  if (header == "My watchlist" || header == "My auctions") {
+    Login();
+  }
+
+};
 
 
 function Go_to_login() {
@@ -7,6 +15,7 @@ function Go_to_login() {
 
 
 function Login() {
+  document.getElementById("logged-out").style.display = "none";
   document.getElementById("login").style.display = "none";
   document.getElementById("logged-in").style.display = "block";
 }
