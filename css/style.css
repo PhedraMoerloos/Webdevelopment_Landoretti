@@ -654,10 +654,31 @@ form.form-search .row:last-child p {
 .filter-mywatchlist {
   margin-left: 4%; }
 
-.frame-profile .profile-title {
-  margin-left: 0; }
-  .frame-profile .profile-title h4 {
-    font-weight: 400; }
+.frame-profile {
+  padding: 1em 0.5em 1em 2.5em; }
+  .frame-profile p, .frame-profile label {
+    margin-bottom: 0; }
+  .frame-profile p {
+    font-size: 0.9em; }
+  .frame-profile label {
+    color: #06137b; }
+  .frame-profile .col:first-child {
+    border-right: 1px solid #e5e5e5; }
+  .frame-profile .col:last-child {
+    margin-left: 40px; }
+  .frame-profile .profile-title {
+    margin-left: 0; }
+    .frame-profile .profile-title h4 {
+      font-weight: 400;
+      margin-bottom: 20px; }
+  .frame-profile .profile-info div img {
+    margin-right: 3px; }
+  .frame-profile .profile-info div:first-child p {
+    text-decoration: underline; }
+  .frame-profile .profile-info div:last-child {
+    margin-top: 21px; }
+  .frame-profile .account-info div:last-child {
+    margin-top: 22px; }
 
 body {
   font-family: "Open Sans", sans-serif;

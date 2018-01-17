@@ -1,9 +1,62 @@
 .frame-profile {
+    padding: 1em 0.5em 1em 2.5em;
+
+    p, label {
+      margin-bottom: 0;
+    }
+
+    p {
+      font-size: $font-medium;
+    }
+
+    label {
+      color: $primary-color;
+    }
+
+    .col:first-child {
+      border-right: 1px solid #e5e5e5;
+    }
+
+    .col:last-child {
+      margin-left: 40px;
+    }
+
+
     .profile-title {
       margin-left:0;
 
       h4 {
         font-weight: 400;
+        margin-bottom: 20px;
       }
     }
+
+
+    .profile-info {
+
+      div img {
+        margin-right: 3px;
+      }
+
+
+      div:first-child p {
+        text-decoration: underline;
+      }
+
+      div:last-child {
+        margin-top: 21px;
+      }
+
+    }
+
+
+    .account-info {
+
+      div:last-child {
+        margin-top: 22px;
+
+      }
+    }
+
+
 }
