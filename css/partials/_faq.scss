@@ -9,7 +9,7 @@
 
     a {
       font-weight: bold;
-      font-size: $font-medium-large;
+      font-size: $font-medium;
       text-decoration: underline;
     }
   }
@@ -25,6 +25,10 @@
 button.button-light.search-button {
   border-top: none;
   padding: 0.75em 0.5em 0.75em 1.5em;
+}
+
+.clearfix .button-light:last-child.search-button {
+  margin-right: 0;
 }
 
 
@@ -76,7 +80,7 @@ button.button-light.search-button {
 
   .row:last-child {
     p:last-child {
-      font-size: $font-medium-large;
+      font-size: $font-medium;
     }
   }
 
