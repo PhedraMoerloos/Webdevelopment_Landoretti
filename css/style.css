@@ -654,6 +654,11 @@ form.form-search .row:last-child p {
 .filter-mywatchlist {
   margin-left: 4%; }
 
+.frame-profile .profile-title {
+  margin-left: 0; }
+  .frame-profile .profile-title h4 {
+    font-weight: 400; }
+
 body {
   font-family: "Open Sans", sans-serif;
   border-top: 4px solid #01a7a7;

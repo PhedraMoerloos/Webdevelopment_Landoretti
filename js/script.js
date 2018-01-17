@@ -3,7 +3,8 @@ window.onload = function() {
 
   if (header == "My watchlist" ||
       header == "My auctions"  ||
-      header == "Add a new auction") {
+      header == "Add a new auction" ||
+      header == "Profile") {
     Login();
   }
 
