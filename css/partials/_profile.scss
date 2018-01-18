@@ -60,3 +60,26 @@
 
 
 }
+
+
+
+
+/* Slider */
+
+#SliderAuctions .carousel-control-prev, #SliderAuctions .carousel-control-next {
+  background-color: rgba(7, 7, 7, 0.50);
+
+}
+
+
+.carousel-control-prev-icon {
+    width: 42px;
+    height: 42px;
+    background: url('../images/pijltje-l-slider-auctions.png');
+}
+
+
+.carousel-control-next-icon {
+    @extend .carousel-control-prev-icon;
+    background: url('../images/pijltje-r-slider-auctions.png');
+}

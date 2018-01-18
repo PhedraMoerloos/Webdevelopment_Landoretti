@@ -680,6 +680,18 @@ form.form-search .row:last-child p {
   .frame-profile .account-info div:last-child {
     margin-top: 22px; }
 
+/* Slider */
+#SliderAuctions .carousel-control-prev, #SliderAuctions .carousel-control-next {
+  background-color: rgba(7, 7, 7, 0.5); }
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+  width: 42px;
+  height: 42px;
+  background: url("../images/pijltje-l-slider-auctions.png"); }
+
+.carousel-control-next-icon {
+  background: url("../images/pijltje-r-slider-auctions.png"); }
+
 body {
   font-family: "Open Sans", sans-serif;
   border-top: 4px solid #01a7a7;
