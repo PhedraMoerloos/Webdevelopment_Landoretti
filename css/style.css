@@ -701,6 +701,24 @@ form.form-search .row:last-child p {
   padding-left: 0; }
 #SliderAuctions .carousel-inner .col-md-3:last-child {
   padding-right: 0; }
+#SliderAuctions .carousel-inner .position {
+  position: relative;
+  overflow: hidden; }
+  #SliderAuctions .carousel-inner .position img {
+    position: relative; }
+  #SliderAuctions .carousel-inner .position .overlay {
+    background-color: rgba(82, 81, 81, 0.61);
+    opacity: 0;
+    transition: all .4s ease-in-out;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0; }
+    #SliderAuctions .carousel-inner .position .overlay a img {
+      width: 50%;
+      margin-left: 25%; }
+#SliderAuctions .carousel-inner .col-md-3:hover .position .overlay {
+  opacity: 1; }
 
 body {
   font-family: "Open Sans", sans-serif;
