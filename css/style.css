@@ -683,6 +683,8 @@ form.form-search .row:last-child p {
 /* Slider */
 #SliderAuctions .carousel-control-prev, #SliderAuctions .carousel-control-next {
   background-color: rgba(7, 7, 7, 0.5); }
+  #SliderAuctions .carousel-control-prev.left, #SliderAuctions .carousel-control-prev.right, #SliderAuctions .carousel-control-next.left, #SliderAuctions .carousel-control-next.right {
+    background-image: none; }
 
 .carousel-control-prev-icon, .carousel-control-next-icon {
   width: 42px;
@@ -691,6 +693,14 @@ form.form-search .row:last-child p {
 
 .carousel-control-next-icon {
   background: url("../images/pijltje-r-slider-auctions.png"); }
+
+#SliderAuctions .carousel-inner .col-md-3 {
+  padding-left: 2px;
+  padding-right: 2px; }
+#SliderAuctions .carousel-inner .col-md-3:first-child {
+  padding-left: 0; }
+#SliderAuctions .carousel-inner .col-md-3:last-child {
+  padding-right: 0; }
 
 body {
   font-family: "Open Sans", sans-serif;

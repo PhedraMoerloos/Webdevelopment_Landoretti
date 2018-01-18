@@ -69,6 +69,10 @@
 #SliderAuctions .carousel-control-prev, #SliderAuctions .carousel-control-next {
   background-color: rgba(7, 7, 7, 0.50);
 
+  &.left, &.right{
+    background-image: none;
+  }
+
 }
 
 
@@ -82,4 +86,20 @@
 .carousel-control-next-icon {
     @extend .carousel-control-prev-icon;
     background: url('../images/pijltje-r-slider-auctions.png');
+}
+
+#SliderAuctions .carousel-inner {
+  .col-md-3 {
+    padding-left: 2px;
+    padding-right: 2px;
+  }
+
+  .col-md-3:first-child {
+    padding-left: 0;
+  }
+
+  .col-md-3:last-child {
+    padding-right: 0;
+  }
+
 }

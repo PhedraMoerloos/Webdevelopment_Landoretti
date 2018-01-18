@@ -8,6 +8,11 @@ window.onload = function() {
     Login();
   }
 
+
+  $('#SliderAuctions').carousel({
+      interval: 8000
+  });
+
 };
 
 
