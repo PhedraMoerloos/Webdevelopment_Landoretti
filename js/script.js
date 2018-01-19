@@ -13,6 +13,10 @@ window.onload = function() {
       interval: 8000
   });
 
+  var $heightSetter = $('.position');
+  $('#SliderAuctions .carousel-control-prev').css("height", $heightSetter.height() + "px");
+  $('#SliderAuctions .carousel-control-next').css("height", $heightSetter.height() + "px");
+
 };
 
 

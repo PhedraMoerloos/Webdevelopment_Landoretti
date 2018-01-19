@@ -683,8 +683,7 @@ form.form-search .row:last-child p {
 
 /* Slider */
 #SliderAuctions .carousel-control-prev, #SliderAuctions .carousel-control-next {
-  background-color: rgba(7, 7, 7, 0.5);
-  height: 62.5%; }
+  background-color: rgba(7, 7, 7, 0.5); }
   #SliderAuctions .carousel-control-prev.left, #SliderAuctions .carousel-control-prev.right, #SliderAuctions .carousel-control-next.left, #SliderAuctions .carousel-control-next.right {
     background-image: none; }
 
