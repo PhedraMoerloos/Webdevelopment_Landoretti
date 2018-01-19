@@ -330,7 +330,7 @@ p.footer-title {
     margin-top: 5px; } }
 /*** SLIDER TOP ***/
 /*eigen controls*/
-.carousel-control-prev-icon, .carousel-control-next-icon {
+.carousel-control-prev-icon, .carousel-control-next-icon, #SliderAuctions .carousel-control-next-icon {
   width: 37px;
   height: 70px;
   background: url("../images/pijltjes-slider.png") 37px 0; }
@@ -655,7 +655,8 @@ form.form-search .row:last-child p {
   margin-left: 4%; }
 
 .frame-profile {
-  padding: 1em 0.5em 1em 2.5em; }
+  padding: 1em 0.5em 1em 2.5em;
+  margin-bottom: 50px; }
   .frame-profile p, .frame-profile label {
     margin-bottom: 0; }
   .frame-profile p {
@@ -682,43 +683,74 @@ form.form-search .row:last-child p {
 
 /* Slider */
 #SliderAuctions .carousel-control-prev, #SliderAuctions .carousel-control-next {
-  background-color: rgba(7, 7, 7, 0.5); }
+  background-color: rgba(7, 7, 7, 0.5);
+  height: 62.5%; }
   #SliderAuctions .carousel-control-prev.left, #SliderAuctions .carousel-control-prev.right, #SliderAuctions .carousel-control-next.left, #SliderAuctions .carousel-control-next.right {
     background-image: none; }
 
-.carousel-control-prev-icon, .carousel-control-next-icon {
+#SliderAuctions .carousel-control-prev-icon, #SliderAuctions .carousel-control-next-icon {
   width: 42px;
   height: 42px;
   background: url("../images/pijltje-l-slider-auctions.png"); }
 
-.carousel-control-next-icon {
+#SliderAuctions .carousel-control-next-icon {
   background: url("../images/pijltje-r-slider-auctions.png"); }
 
-#SliderAuctions .carousel-inner .col-md-3 {
-  padding-left: 2px;
-  padding-right: 2px; }
-#SliderAuctions .carousel-inner .col-md-3:first-child {
-  padding-left: 0; }
-#SliderAuctions .carousel-inner .col-md-3:last-child {
-  padding-right: 0; }
-#SliderAuctions .carousel-inner .position {
-  position: relative;
-  overflow: hidden; }
-  #SliderAuctions .carousel-inner .position img {
-    position: relative; }
-  #SliderAuctions .carousel-inner .position .overlay {
-    background-color: rgba(82, 81, 81, 0.61);
-    opacity: 0;
-    transition: all .4s ease-in-out;
-    width: 100%;
-    position: absolute;
-    top: 0;
-    left: 0; }
-    #SliderAuctions .carousel-inner .position .overlay a img {
-      width: 50%;
-      margin-left: 25%; }
-#SliderAuctions .carousel-inner .col-md-3:hover .position .overlay {
-  opacity: 1; }
+#SliderAuctions .carousel-inner {
+  margin-top: 30px; }
+  #SliderAuctions .carousel-inner .col-md-3 {
+    padding-left: 2px;
+    padding-right: 2px; }
+  #SliderAuctions .carousel-inner .col-md-3:first-child {
+    padding-left: 0; }
+  #SliderAuctions .carousel-inner .col-md-3:last-child {
+    padding-right: 0; }
+  #SliderAuctions .carousel-inner .position {
+    position: relative;
+    overflow: hidden; }
+    #SliderAuctions .carousel-inner .position img {
+      position: relative; }
+    #SliderAuctions .carousel-inner .position .overlay {
+      background-color: rgba(82, 81, 81, 0.61);
+      opacity: 0;
+      transition: all .4s ease-in-out;
+      width: 100%;
+      position: absolute;
+      top: 0;
+      left: 0; }
+      #SliderAuctions .carousel-inner .position .overlay a img {
+        width: 50%;
+        margin-left: 25%; }
+  #SliderAuctions .carousel-inner .col-md-3:hover .position .overlay {
+    opacity: 1; }
+
+.slider-auction-info {
+  margin: 1.1em;
+  margin-bottom: 0;
+  border-bottom: 1px solid #e5e5e5; }
+  .slider-auction-info p {
+    margin-bottom: 0; }
+  .slider-auction-info p:first-child {
+    font-size: 0.72em;
+    color: #06137b; }
+  .slider-auction-info p:nth-child(2), .slider-auction-info p:nth-child(3) {
+    font-size: 1.2em; }
+  .slider-auction-info p:nth-child(2) {
+    font-weight: 600; }
+  .slider-auction-info .clearfix p.countdown {
+    color: #545454;
+    float: left;
+    font-size: 0.72em;
+    margin-top: 10px; }
+  .slider-auction-info .clearfix button {
+    border: 1px solid #e5e5e5;
+    border-bottom: none;
+    padding: 0.75em 0.5em 0.75em 0.5em; }
+    .slider-auction-info .clearfix button p a {
+      font-size: 1em;
+      font-weight: 600; }
+    .slider-auction-info .clearfix button img {
+      margin-left: 5px; }
 
 body {
   font-family: "Open Sans", sans-serif;

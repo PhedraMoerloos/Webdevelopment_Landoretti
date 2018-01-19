@@ -1,5 +1,6 @@
 .frame-profile {
     padding: 1em 0.5em 1em 2.5em;
+    margin-bottom: 50px;
 
     p, label {
       margin-bottom: 0;
@@ -68,6 +69,7 @@
 
 #SliderAuctions .carousel-control-prev, #SliderAuctions .carousel-control-next {
   background-color: rgba(7, 7, 7, 0.50);
+  height: 62.5%;
 
   &.left, &.right{
     background-image: none;
@@ -76,19 +78,21 @@
 }
 
 
-.carousel-control-prev-icon {
+#SliderAuctions .carousel-control-prev-icon {
     width: 42px;
     height: 42px;
     background: url('../images/pijltje-l-slider-auctions.png');
 }
 
 
-.carousel-control-next-icon {
+#SliderAuctions .carousel-control-next-icon {
     @extend .carousel-control-prev-icon;
     background: url('../images/pijltje-r-slider-auctions.png');
 }
 
 #SliderAuctions .carousel-inner {
+  margin-top: 30px;
+
   .col-md-3 {
     padding-left: 2px;
     padding-right: 2px;
@@ -141,6 +145,60 @@
     }
   }
 
+
+
+}
+
+
+
+.slider-auction-info {
+  margin: 1.1em;
+  margin-bottom: 0;
+  border-bottom: 1px solid #e5e5e5;
+
+  p {
+    margin-bottom: 0;
+  }
+
+  p:first-child {
+    font-size: $font-small;
+    color: $primary-color;
+  }
+
+
+  p:nth-child(2), p:nth-child(3) {
+    font-size: 1.2em;
+
+  }
+
+  p:nth-child(2) {
+    font-weight: 600;
+  }
+
+
+  .clearfix {
+    p.countdown {
+      color: #545454;
+      float:left;
+      font-size: $font-small;
+      margin-top: 10px;
+    }
+
+    button {
+      border: 1px solid #e5e5e5;
+      border-bottom: none;
+      padding: 0.75em 0.5em 0.75em 0.5em;
+
+      p a {
+        font-size: 1em;
+        font-weight: 600;
+      }
+
+      img {
+        margin-left: 5px;
+      }
+    }
+  }
 
 
 }
